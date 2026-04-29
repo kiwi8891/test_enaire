@@ -34,25 +34,22 @@
     <div class="card">
       <p style="font-size:0.9rem;color:#8e8e93;margin-bottom:12px">Introduce tu email para acceder</p>
       <input type="email" id="email-input" placeholder="tu@email.com" autocomplete="email">
-      <button class="btn btn-primary" id="btn-send-otp" onclick="sendOTP()">Enviar código</button>
+      <button class="btn btn-primary" id="btn-send-magic" onclick="sendMagicLink()">Enviar enlace</button>
     </div>
   </div>
 
-  <!-- Login: verificar OTP -->
-  <div id="screen-otp" class="screen">
+  <!-- Login: enlace enviado -->
+  <div id="screen-check-email" class="screen">
     <div class="header">
       <h1>Test ENAIRE</h1>
       <p>Revisa tu email</p>
     </div>
-    <div class="card">
-      <p style="font-size:0.9rem;color:#8e8e93;margin-bottom:12px">
-        Código enviado a <strong id="otp-email-hint"></strong>
-      </p>
-      <input type="text" id="otp-input" placeholder="000000" maxlength="6"
-             inputmode="numeric" pattern="[0-9]*" autocomplete="one-time-code">
-      <button class="btn btn-primary" id="btn-verify-otp" onclick="verifyOTP()">Verificar</button>
-      <button class="btn btn-secondary" onclick="showScreen('screen-login')">← Volver</button>
+    <div class="card" style="text-align:center">
+      <p style="font-size:2rem;margin-bottom:12px">📧</p>
+      <p style="font-weight:600;margin-bottom:8px">Enlace enviado</p>
+      <p style="font-size:0.9rem;color:#8e8e93">Haz clic en el enlace del email para acceder. Puedes cerrar esta pantalla.</p>
     </div>
+    <button class="btn btn-secondary" onclick="showScreen('screen-login')">← Volver</button>
   </div>
 
   <!-- Menú principal -->

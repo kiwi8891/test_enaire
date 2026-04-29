@@ -11,6 +11,19 @@ async function init() {
 
   sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
+  sb.auth.onAuthStateChange(async (event, authSession) => {
+    if (event === 'SIGNED_IN' && authSession) {
+      user = authSession.user;
+      await loadData();
+      showMenu();
+    } else if (event === 'SIGNED_OUT') {
+      user = null;
+      userProgress = {};
+      allQuestions = [];
+      showScreen('screen-login');
+    }
+  });
+
   const { data: { session: authSession } } = await sb.auth.getSession();
   if (authSession) {
     user = authSession.user;
@@ -38,44 +51,27 @@ async function loadProgress() {
 
 // --- Auth ---
 
-async function sendOTP() {
+const APP_URL = 'https://kiwi8891.github.io/test_enaire';
+
+async function sendMagicLink() {
   const email = document.getElementById('email-input').value.trim();
   if (!email) return;
 
-  const btn = document.getElementById('btn-send-otp');
+  const btn = document.getElementById('btn-send-magic');
   btn.textContent = 'Enviando...';
   btn.disabled = true;
 
-  const { error } = await sb.auth.signInWithOtp({ email });
+  const { error } = await sb.auth.signInWithOtp({
+    email,
+    options: { emailRedirectTo: APP_URL }
+  });
 
-  btn.textContent = 'Enviar código';
+  btn.textContent = 'Enviar enlace';
   btn.disabled = false;
 
   if (error) { alert('Error: ' + error.message); return; }
 
-  pendingEmail = email;
-  document.getElementById('otp-email-hint').textContent = email;
-  showScreen('screen-otp');
-}
-
-async function verifyOTP() {
-  const token = document.getElementById('otp-input').value.trim();
-  if (token.length !== 6) return;
-
-  const btn = document.getElementById('btn-verify-otp');
-  btn.textContent = 'Verificando...';
-  btn.disabled = true;
-
-  const { data, error } = await sb.auth.verifyOtp({ email: pendingEmail, token, type: 'email' });
-
-  btn.textContent = 'Verificar';
-  btn.disabled = false;
-
-  if (error) { alert('Código incorrecto o caducado. Solicita uno nuevo.'); return; }
-
-  user = data.user;
-  await loadData();
-  showMenu();
+  showScreen('screen-check-email');
 }
 
 async function logout() {
