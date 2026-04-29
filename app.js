@@ -129,7 +129,9 @@ function showMenu() {
   showScreen('screen-menu');
 }
 
-function showStats() {
+async function showStats() {
+  await loadProgress(); // recarga fresca desde Supabase
+
   const total = allQuestions.length;
   const answered = Object.values(userProgress).filter(p => (p.correct_count + p.wrong_count) > 0).length;
   const failed = Object.values(userProgress).filter(p => p.wrong_count > 0).length;
@@ -144,6 +146,7 @@ function showStats() {
 
   document.getElementById('stat-total').textContent = total;
   document.getElementById('stat-answered').textContent = answered;
+  document.getElementById('stat-unseen').textContent = total - answered;
   document.getElementById('stat-failed').textContent = failed;
   document.getElementById('stat-pct').textContent = totalAttempts > 0 ? pct + '%' : '—';
   document.getElementById('stat-pct').style.color = pct >= 70 ? '#34c759' : pct > 0 ? '#ff3b30' : '#8e8e93';
@@ -172,6 +175,18 @@ function showStats() {
 
 // --- Test ---
 
+function prioritizeUnseen(questions) {
+  const unseen = [], seen = [];
+  for (const q of questions) {
+    const p = userProgress[q.id];
+    if (!p || (p.correct_count + p.wrong_count) === 0) unseen.push(q);
+    else seen.push(q);
+  }
+  unseen.sort(() => Math.random() - 0.5);
+  seen.sort(() => Math.random() - 0.5);
+  return [...unseen, ...seen];
+}
+
 function startTest(mode) {
   lastMode = mode;
   let pool;
@@ -187,9 +202,9 @@ function startTest(mode) {
     }
   } else if (mode.startsWith('topic:')) {
     const topic = mode.slice(6);
-    pool = allQuestions.filter(q => q.topic === topic).sort(() => Math.random() - 0.5);
+    pool = prioritizeUnseen(allQuestions.filter(q => q.topic === topic));
   } else {
-    pool = [...allQuestions].sort(() => Math.random() - 0.5);
+    pool = prioritizeUnseen([...allQuestions]);
   }
 
   session = { questions: pool.slice(0, 20), current: 0, correct: 0, wrong: 0 };
@@ -259,11 +274,13 @@ async function updateProgress(questionId, isCorrect) {
     last_seen: new Date().toISOString()
   };
 
+  userProgress[questionId] = updated; // actualización local inmediata
+
   const { data } = await sb.from('progress')
     .upsert(updated, { onConflict: 'user_id,question_id' })
     .select().single();
 
-  if (data) userProgress[questionId] = data;
+  if (data) userProgress[questionId] = data; // reemplaza con respuesta del servidor (incluye id)
 }
 
 function nextQuestion() {
@@ -284,6 +301,14 @@ function showResult() {
   document.getElementById('result-correct').textContent = session.correct;
   document.getElementById('result-wrong').textContent = session.wrong;
   document.getElementById('result-total').textContent = total;
+
+  const reviewBtn = document.getElementById('btn-review-after');
+  if (session.wrong > 0) {
+    reviewBtn.textContent = `Repasar ${session.wrong} fallada${session.wrong !== 1 ? 's' : ''}`;
+    reviewBtn.style.display = '';
+  } else {
+    reviewBtn.style.display = 'none';
+  }
 
   showScreen('screen-result');
 }

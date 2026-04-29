@@ -120,18 +120,22 @@
     </div>
     <div class="card" style="text-align:center">
       <div class="result-pct" id="result-pct"></div>
-      <div class="result-sub">de acierto</div>
+      <div class="result-sub" id="result-sub">de acierto</div>
       <div class="stat-row">
         <span class="stat-label">✓ Correctas</span>
         <span class="stat-value" style="color:#34c759" id="result-correct"></span>
       </div>
-      <div class="stat-row" style="border:none">
+      <div class="stat-row">
         <span class="stat-label">✗ Falladas</span>
         <span class="stat-value" style="color:#ff3b30" id="result-wrong"></span>
       </div>
+      <div class="stat-row" style="border:none">
+        <span class="stat-label">Total</span>
+        <span class="stat-value" id="result-total"></span>
+      </div>
     </div>
     <button class="btn btn-primary" onclick="startTest(lastMode)">Otra vez</button>
-    <button class="btn btn-secondary" onclick="startTest('review')" id="btn-review-after"></button>
+    <button class="btn btn-secondary" onclick="startTest('review')" id="btn-review-after" style="display:none"></button>
     <button class="btn btn-secondary" onclick="showMenu()">← Menú</button>
   </div>
 
@@ -148,6 +152,10 @@
       <div class="stat-row">
         <span class="stat-label">Respondidas al menos 1 vez</span>
         <span class="stat-value" id="stat-answered">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Sin ver todavía</span>
+        <span class="stat-value" id="stat-unseen">—</span>
       </div>
       <div class="stat-row">
         <span class="stat-label">Con algún fallo</span>
