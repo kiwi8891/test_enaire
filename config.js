@@ -1,3 +1,2 @@
-// Supabase — rellena con tus credenciales (Settings → API en supabase.com)
-const SUPABASE_URL = 'https://YOUR_PROJECT_ID.supabase.co';
-const SUPABASE_ANON_KEY = 'your-anon-public-key-here';
+const SUPABASE_URL = 'https://nrxkmqrhetkazwulxcht.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5yeGttcXJoZXRrYXp3dWx4Y2h0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc0MTg0MTcsImV4cCI6MjA5Mjk5NDQxN30.G2C04eN9V4dI-XVduMT_-hTxc7Ez5mbb672EHKeNRos';
