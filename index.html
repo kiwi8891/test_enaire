@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Test ENAIRE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <!-- Setup: credenciales no configuradas -->
+  <div id="screen-setup" class="screen">
+    <div class="header">
+      <h1>Test ENAIRE</h1>
+      <p>Configuración pendiente</p>
+    </div>
+    <div class="card">
+      <p style="font-size:0.9rem;line-height:1.6;color:#3a3a3c">
+        Edita <strong>config.js</strong> con tu URL y clave anon de Supabase.<br><br>
+        Consulta el README para los pasos de setup.
+      </p>
+    </div>
+  </div>
+
+  <!-- Login: email -->
+  <div id="screen-login" class="screen">
+    <div class="header">
+      <h1>Test ENAIRE</h1>
+      <p>Supervisor Instructor</p>
+    </div>
+    <div class="card">
+      <p style="font-size:0.9rem;color:#8e8e93;margin-bottom:12px">Introduce tu email para acceder</p>
+      <input type="email" id="email-input" placeholder="tu@email.com" autocomplete="email">
+      <button class="btn btn-primary" id="btn-send-otp" onclick="sendOTP()">Enviar código</button>
+    </div>
+  </div>
+
+  <!-- Login: verificar OTP -->
+  <div id="screen-otp" class="screen">
+    <div class="header">
+      <h1>Test ENAIRE</h1>
+      <p>Revisa tu email</p>
+    </div>
+    <div class="card">
+      <p style="font-size:0.9rem;color:#8e8e93;margin-bottom:12px">
+        Código enviado a <strong id="otp-email-hint"></strong>
+      </p>
+      <input type="text" id="otp-input" placeholder="000000" maxlength="6"
+             inputmode="numeric" pattern="[0-9]*" autocomplete="one-time-code">
+      <button class="btn btn-primary" id="btn-verify-otp" onclick="verifyOTP()">Verificar</button>
+      <button class="btn btn-secondary" onclick="showScreen('screen-login')">← Volver</button>
+    </div>
+  </div>
+
+  <!-- Menú principal -->
+  <div id="screen-menu" class="screen">
+    <div class="header">
+      <h1>Test ENAIRE</h1>
+      <p id="user-email"></p>
+    </div>
+
+    <div class="menu-item" onclick="startTest('all')">
+      <div>
+        <div class="menu-item-title">Practicar Test</div>
+        <div class="menu-item-sub" id="menu-answered">Cargando…</div>
+      </div>
+      <span class="chevron">›</span>
+    </div>
+
+    <div class="menu-item" onclick="startTest('review')">
+      <div>
+        <div class="menu-item-title">Repasar Falladas</div>
+        <div class="menu-item-sub" id="menu-failed">0 preguntas con fallos</div>
+      </div>
+      <span class="chevron">›</span>
+    </div>
+
+    <div class="menu-item" onclick="showStats()">
+      <div>
+        <div class="menu-item-title">Estadísticas</div>
+        <div class="menu-item-sub">Progreso y preguntas más falladas</div>
+      </div>
+      <span class="chevron">›</span>
+    </div>
+
+    <button class="btn btn-secondary" style="margin-top:20px" onclick="logout()">Cerrar sesión</button>
+  </div>
+
+  <!-- Test en curso -->
+  <div id="screen-test" class="screen">
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+    </div>
+
+    <div class="question-meta">
+      <span class="question-number" id="question-number"></span>
+      <span class="question-topic" id="question-topic"></span>
+    </div>
+
+    <div class="question-text" id="question-text"></div>
+    <div id="options"></div>
+    <div class="explanation" id="explanation"></div>
+
+    <button class="btn btn-primary" id="btn-next" style="display:none;margin-top:16px" onclick="nextQuestion()">
+      Siguiente →
+    </button>
+    <button class="btn btn-secondary" onclick="showMenu()">Salir</button>
+  </div>
+
+  <!-- Resultado de sesión -->
+  <div id="screen-result" class="screen">
+    <div class="header">
+      <h1>Resultado</h1>
+    </div>
+    <div class="card" style="text-align:center">
+      <div class="result-pct" id="result-pct"></div>
+      <div class="result-sub">de acierto</div>
+      <div class="stat-row">
+        <span class="stat-label">✓ Correctas</span>
+        <span class="stat-value" style="color:#34c759" id="result-correct"></span>
+      </div>
+      <div class="stat-row" style="border:none">
+        <span class="stat-label">✗ Falladas</span>
+        <span class="stat-value" style="color:#ff3b30" id="result-wrong"></span>
+      </div>
+    </div>
+    <button class="btn btn-primary" onclick="startTest(lastMode)">Otra vez</button>
+    <button class="btn btn-secondary" onclick="startTest('review')" id="btn-review-after"></button>
+    <button class="btn btn-secondary" onclick="showMenu()">← Menú</button>
+  </div>
+
+  <!-- Estadísticas -->
+  <div id="screen-stats" class="screen">
+    <div class="header">
+      <h1>Estadísticas</h1>
+    </div>
+    <div class="card">
+      <div class="stat-row">
+        <span class="stat-label">Total preguntas</span>
+        <span class="stat-value" id="stat-total">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Respondidas al menos 1 vez</span>
+        <span class="stat-value" id="stat-answered">—</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Con algún fallo</span>
+        <span class="stat-value" id="stat-failed">—</span>
+      </div>
+      <div class="stat-row" style="border:none">
+        <span class="stat-label">% acierto global</span>
+        <span class="stat-value" id="stat-pct">—</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <p style="font-weight:600;margin-bottom:12px;font-size:0.95rem">Las 5 más falladas</p>
+      <div id="most-failed-list"></div>
+    </div>
+
+    <button class="btn btn-secondary" onclick="showMenu()">← Volver</button>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

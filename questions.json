@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "question": "PLACEHOLDER — este fichero será reemplazado con el banco de preguntas real.",
+    "options": ["Opción A", "Opción B", "Opción C", "Opción D"],
+    "correct": 0,
+    "topic": "Ejemplo",
+    "explanation": "Explicación opcional de la respuesta correcta."
+  }
+]
