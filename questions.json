@@ -1,10 +1,5535 @@
 [
   {
     "id": 1,
-    "question": "PLACEHOLDER — este fichero será reemplazado con el banco de preguntas real.",
-    "options": ["Opción A", "Opción B", "Opción C", "Opción D"],
+    "question": "¿Se entiende por capacidad declarada?:",
+    "options": [
+      "La capacidad notificada a los organismos apropiados. La capacidad declarada se basará en la capacidad sostenible.",
+      "La máxima afluencia de tránsito que puede alcanzarse solamente en la unidad de tiempo especificada, normalmente una hora.",
+      "La máxima afluencia de tránsito alcanzable en una unidad de tiempo específica que cabe mantener a lo largo de un tiempo, de conformidad con los requisitos en materia de seguridad y el factor medio de demora aceptable."
+    ],
     "correct": 0,
-    "topic": "Ejemplo",
-    "explanation": "Explicación opcional de la respuesta correcta."
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 2,
+    "question": "Las mínimas VMC a nivel de vuelo FL100, cuando el QNH a nivel del mar es 1000 hPa es de:",
+    "options": [
+      "8 Km.",
+      "5 Km.",
+      "3 Km."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 3,
+    "question": "La clasificación del espacio aéreo, cuál de estas afirmaciones es correcta:",
+    "options": [
+      "La clase F, todos los vuelo estarán sujetos a autorización ATC.",
+      "La clase D no es necesario una autorización de control.",
+      "La clase E no será utilizada para las zonas de control."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 4,
+    "question": "Respecto a los servicios de información de vuelo en el espacio clase F:",
+    "options": [
+      "Los tráficos IFR reciben servicio de información de vuelo siempre.",
+      "Los tráficos IFR no reciben servicio de información de vuelo.",
+      "Los tráficos IFR reciben servicio de información de vuelo solo si lo solicitan."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 5,
+    "question": "Las dependencias de servicios de tránsito aéreo suministrarán el servicio de alerta:",
+    "options": [
+      "En la medida de lo posible, a todas las aeronaves que hayan presentado un plan de vuelo o de las que tengan conocimiento, por otro medio, los servicios de tránsito aéreo.",
+      "Solo a las aeronaves que cuenten con un servicio de control de tránsito aéreo.",
+      "A las que sean objeto de explosivo a bordo."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 6,
+    "question": "En el caso de que se sepa o se crea que una aeronave se encuentra en estado de emergencia, incluido el caso de que se encuentre sometida a una interferencia ilícita:",
+    "options": [
+      "El controlador aéreo no hará nada hasta que declare emergencia( Mayday) para darle prioridad.",
+      "Las dependencias de servicios de tránsito aéreo ofrecerán a la aeronave la máxima atención, asistencia y prioridad frente a otras aeronaves según lo exijan las circunstancias.",
+      "El controlador aéreo lo apuntara en la ficha al objeto de tener referencia del caso."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 7,
+    "question": "Los procedimientos de transmisión por telecomunicaciones de señales de socorro y de urgencia se ajustarán:",
+    "options": [
+      "A lo dispuesto en el anexo 10, volumen II, del convenio de Chicago.",
+      "Al documento 8168 de OACI.",
+      "A lo dispuesto en el anexo 11, volumen II, del convenio de Chicago."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 8,
+    "question": "Las señales de urgencia significan que:",
+    "options": [
+      "Significan que existe una amenaza de peligro grave e inminente y que se pide ayuda inmediata.",
+      "El piloto ajuste del transpondedor en modo A Código 7700.",
+      "Significan que una aeronave desea avisar de que tiene dificultades que la obligan a aterrizar, pero no necesita asistencia inmediata"
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 9,
+    "question": "Una T de aterrizaje, horizontal, de color blanco o anaranjado:",
+    "options": [
+      "Indica la dirección que ha de seguir la aeronave para aterrizar y despegar, lo que hará en una dirección paralela al brazo de la T y hacia su travesaño.",
+      "Indica a las aeronaves que están en el área de maniobras la dirección de despegue.",
+      "Indica el lugar en que se encuentra la oficina de notificación."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 10,
+    "question": "Cuando nos referimos a la Autoridad ATS, nos referimos al:",
+    "options": [
+      "Ministerio de Fomento. La Dirección General den Aviación Civil o la Agencia Estatal de Seguridad Aérea, según corresponda, en el ámbito de sus respectivas competencias.",
+      "Solo a la Dirección General de Aviación Civil.",
+      "Proveedor de servicios de tránsito aéreo."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 11,
+    "question": "Entre la documentación integrada de información aeronáutica, se encuentran los siguientes documentos:",
+    "options": [
+      "AIP, NOTAM, AIC.",
+      "AIS, METAR, AIC.",
+      "AIRAC, AIC, AIRMET."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 12,
+    "question": "¿Se entiende por capacidad sostenible?:",
+    "options": [
+      "La máxima afluencia de tránsito que puede alcanzarse solamente en la unidad de tiempo especificada, normalmente una hora.",
+      "La máxima afluencia de tránsito alcanzable en una unidad de tiempo específica que cabe mantener a lo largo de un tiempo, de conformidad con los requisitos en materia de seguridad y el factor medio de demora aceptable.",
+      "La capacidad notificada a los organismos apropiados."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 13,
+    "question": "Un aeródromo de alternativa en el que podría aterrizar una aeronave si esto fuera necesario poco después del despegue y no fuera posible utilizar el aeródromo de salida, ¿se denomina?:",
+    "options": [
+      "Aeródromo de alternativa pos despegue.",
+      "Aeródromo de alternativa en ruta.",
+      "Aeródromo de alternativa en ruta ETOPS."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 14,
+    "question": "¿Se entiende por capacidad máxima?:",
+    "options": [
+      "La máxima afluencia de tránsito que puede alcanzarse solamente en la unidad de tiempo especificada, normalmente una hora pero que no se mantiene durante un largo período, cumpliéndose los requisitos en materia de seguridad y sin que se produzca ningún inc",
+      "La capacidad notificada a los organismos apropiados. La capacidad declarada se basará en la capacidad sostenible.",
+      "La máxima afluencia de tránsito alcanzable en una unidad de tiempo específica que cabe mantener a lo largo de un tiempo, de conformidad con los requisitos en materia de seguridad y el factor medio de demora aceptable."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 15,
+    "question": "¿Al medir la demanda frente a la capacidad ATC se toman en cuenta los siguientes tráficos?:",
+    "options": [
+      "Solo los IFR.",
+      "Los IFR y los VFR.",
+      "Todos los vuelos IFR, incluidos tramos IFR o vuelos mixtos IFR/VFR."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 16,
+    "question": "Las de fichas de progresión de vuelo (FPS):",
+    "options": [
+      "Serán las suficientes para satisfacer los requisitos de la dependencia ATS en cuestión.",
+      "Las FPS impresas se conservarán por un período de 45 días.",
+      "Las dos anteriores son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 17,
+    "question": "En caso de interferencia ilícita entraremos en:",
+    "options": [
+      "Fase de Incertidumbre.",
+      "Fase de Alerta.",
+      "Fase de Peligro."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 18,
+    "question": "No es necesario que los controladores incluuyan en las transmisiones dirigidas a las aeronaves, la información contenida en el ATIS actualizado cuyo recibo haya sido confirmado por la aeronave respectiva, exceptuando:",
+    "options": [
+      "La hora exacta.",
+      "El reglaje de altímetro.",
+      "El reglaje de altímetro y la pista en uso."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 19,
+    "question": "La abreviatura que corresponde a la Información relativa a fenómenos meteorológicos en ruta que puedan afectar la seguridad de las operaciones de las aeronaves es un:",
+    "options": [
+      "TAFOR.",
+      "SIGMET.",
+      "AIRMET."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 20,
+    "question": "La abreviatura FIS significa:",
+    "options": [
+      "Flight Integrated System.",
+      "Flight Information System.",
+      "Flight Information Service."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 21,
+    "question": "Un vuelo IFR bajo servicio de asesoramiento podría cambiar su nivel de vuelo sin previo permiso de la dependencia ATS.",
+    "options": [
+      "Falso, debe solicitar permiso previo.",
+      "Falso, debe solicitar asesoramiento previo.",
+      "Cierto."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 22,
+    "question": "¿Qué Centro será responsable de reunir toda información relativa a la situación de emergencia de una aeronave?:",
+    "options": [
+      "Torre de Control.",
+      "Oficina de APP y Torre de Control.",
+      "FIC o ACC, según en qué espacio aéreo se encuentre la aeronave."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 23,
+    "question": "Cuando un piloto declara \"Combustible mínimo\" quiere decir que va aterrizar en el aeródromo de aterrizaje previsto:",
+    "options": [
+      "Con más combustible del combustible de reserva final previsto.",
+      "Con menos combustible del combustible de reserva final previsto.",
+      "El controlador aéreo le dará prioridad absoluta."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 24,
+    "question": "¿Cuándo es preceptivo dar aviso de llegada de un vuelo a la correspondiente dependencia ATS del aeródromo de llegada?:",
+    "options": [
+      "Después de todo vuelo respecto al cual se haya presentado un plan de vuelo que comprenda la totalidad del vuelo o la parte restante de un vuelo hasta el aeródromo de destino.",
+      "Tras aterrizar en un aeródromo en el que se proporcionan servicios de tránsito aéreo, salvo que la comunicación por radio o las señales visuales indiquen que el aterrizaje ha sido observado.",
+      "Ambas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 25,
+    "question": "Aeronave es:",
+    "options": [
+      "Toda máquina que puede sustentarse en la atmósfera.",
+      "Toda máquina que puede sustentarse en la atmósfera por reacciones del aire contra la superficie de la tierra.",
+      "Toda máquina que puede sustentarse en la atmósfera por reacciones del aire que no sean las reacciones del mismo contra la superficie de la tierra."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 26,
+    "question": "La emergencia de combustible (mayday fuel) la declarará el comandante cuando:",
+    "options": [
+      "Cuando la cantidad real de combustible utilizable sea inferior a la reserva de combustible final.",
+      "Cuando el combustible no sea suficiente para aterrizar en el aeródromo alternativo.",
+      "Cuando la aeronave no tenga combustible para volver al aeródromo de despegue."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 27,
+    "question": "Una aeronave con fallo de radio en un espacio aéreo en el que se aplique una separación por procedimientos debe: mantener la velocidad y nivel asignados o la altitud mínima de vuelo.",
+    "options": [
+      "Hasta llegar al fijo de aproximación final FAF y a partir de éste iniciar la aproximación.",
+      "Por un periodo de 5 minutos y después proseguir según plan de vuelo.",
+      "Por un periodo de 20 minutos desde su paso por un punto de notificación, y después ajustará el nivel y velocidad según plan de vuelo."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 28,
+    "question": "Las autoridades competentes, a petición de las entidades que lleven a cabo las actividades que se indican a continuación, podrán concederles exenciones de requisitos específicos del RCA. ¿Qué actividad no está exenta?:",
+    "options": [
+      "Misiones de control medioambiental.",
+      "Misiones de extinción de incendios.",
+      "Vuelos de escuela."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 29,
+    "question": "Respecto a la falla o degradación del sistema de navegación basada en prestaciones (PBN) en vuelo, de una aeronave en un procedimiento de salida o llegada que requiera utilizar PBN:",
+    "options": [
+      "Deberá proporcionarse vectores radar a la aeronave hasta que ésta pueda reanudar su propia navegación.",
+      "La aeronave será autorizada a volar por medio de radioayudas convencionales. Deberá proporcionarse una combinación de servicios comunicaciones y vigilancia suficiente para la continuación segura del vuelo.",
+      "Todas correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 30,
+    "question": "El servicio automático de información del área terminal ATIS es de dos tipos:",
+    "options": [
+      "ATIS- A, ATIS- Voz.",
+      "ATIS -Voz, ATIS- D.",
+      "ATIS- C, ATIS- Voz."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 31,
+    "question": "Navegación de área (RNAV), un método de navegación que permite la operación de aeronaves: (cuál es la correcta)",
+    "options": [
+      "Dentro de la cobertura de las ayudas para la navegación basadas en tierra o en el espacio, o dentro de los límites de capacidad de las ayudas autónomas (Inercial, etc.) o una combinación de ambas.",
+      "El sistema RNAV vuela puntos de recorrido, por tanto sólo hace uso de la navegación GNSS (por satélite) para dar la posición.",
+      "El sistema RNAV proporciona la posición de la aeronave desechando la información de radioayudas en tierra, basándose únicamente en el sistema Inercial (INS) junto con el GNSS."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 32,
+    "question": "Especificación para la navegación: Existen dos clases de especificaciones para la navegación:",
+    "options": [
+      "RNAV 1, RNAV 5.",
+      "RNP1, RNP APP.",
+      "RNAV, RNP."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 33,
+    "question": "¿En qué se diferencia la Navegación RNAV de la RNP (Request navigation Performance):",
+    "options": [
+      "La RNAV se basa en radioayudas y GPS, la RNP es igual pero más precisa.",
+      "Las dos navegaciones son iguales, sólo se diferencian en que a la RNP se le exige la función de Monitorización y alerta a bordo.",
+      "Las dos navegaciones son iguales, solo cambia la terminología."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 34,
+    "question": "Respecto al horario en aviación, cuál de estas afirmaciones es cierta:",
+    "options": [
+      "Se utilizará el tiempo local coordinado, que deberá expresarse en horas y minutos y cuando se requiera en segundos del día de 24 horas que comienza a media noche.",
+      "Cuando se utiliza en la aplicación de comunicaciones por enlace de datos, la hora será exacta, con una tolerancia de un minuto respecto al UTC.",
+      "Las señales horarias se referirán al menos al minuto más próximo."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 35,
+    "question": "Cuando se deba indicar la medianoche, en el sistema horario UTC:",
+    "options": [
+      "Se usará 2400.",
+      "Se usará 0000.",
+      "Se usará 2400, para indicar el fin del día, y 0000 para su principio."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 36,
+    "question": "El piloto al mando de la aeronave, manipule o no los mandos, será responsable de que la operación de ésta se realice de acuerdo con el presente Reglamento:",
+    "options": [
+      "No podrá apartarse de estas normas nunca.",
+      "Podrá apartarse de estas normas en circunstancias que hagan tal desviación absolutamente necesaria por razones de seguridad.",
+      "El piloto al mando se familiarizara con toda la información disponible."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 37,
+    "question": "Antes de entrar en una zona obligatoria de radio (RMZ):",
+    "options": [
+      "No es necesario efectuar ninguna llamada si se está cumpliendo estrictamente con la ruta establecida en el plan de vuelo.",
+      "Se debe efectuar una llamada en la frecuencia designada, que contenga todos los datos prescritos por la autoridad competente.",
+      "Bastará con mantener escucha en la frecuencia adecuada."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 38,
+    "question": "¿Que tipo de tráfico se tiene en consideración para medir la demanda frente a la capacidad?:",
+    "options": [
+      "Tráfico IFR de aviación general.",
+      "Todo el Tráfico IFR y VFR, tanto civil como militar.",
+      "Todos los vuelos IFR, incluidos tramos IFR o vuelos mixtos IFR/VFR, sin que importe su estatus."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 39,
+    "question": "Cuando una aeronave pretenda partir desde un aeródromo situado dentro de un área de control para entrar en otra área de control en un plazo de 30 minutos, o cualquier otro período de tiempo específico acordado entre los centros de control de área afectado:",
+    "options": [
+      "Se efectuará la coordinación con la dependencia de control posterior antes de otorgar la autorización de salida.",
+      "Se efectuará la coordinación con la dependencia de control posterior inmediatamente después de otorgar la autorización de salida.",
+      "Se pasará la estimada con al menos 20 minutos de antelación."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 40,
+    "question": "Si una aeronave interceptada recibe una transmisión por radio que estuviera en conflicto con las instrucciones dadas visualmente o por radio por la aeronave interceptadora:",
+    "options": [
+      "Ignorará la transmisión y seguirá las instrucciones recibidas por la interceptadora.",
+      "Seguirá las nuevas instrucciones recibidas por radio.",
+      "Pedirá aclaración a dichas instrucciones mientras cumple con lo que haya pedido la aeronave interceptadora."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 41,
+    "question": "Espacio aéreo RVSM. Volumen de espacio aéreo determinado, desde nivel de vuelo 290 y hasta un nivel de vuelo superior especificado, dentro del cual se aplica, en virtud de un acuerdo regional de navegación aérea, una separación vertical mínima entre aeronaves de 300 metros.",
+    "options": [
+      "Es todo el espacio donde se puede volar con una separación mínima de 300 metros y control radar.",
+      "Espacio zona o reserva donde la seguridad vertical es mínima.",
+      "RCA Comunes Tema:Módulo:P:"
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 42,
+    "question": "Operaciones paralelas segregadas.",
+    "options": [
+      "Aproximaciones simultáneas a pistas de vuelo por instrumentos, paralelas o casi paralelas, cuando se prescriben mínimos de separación radar entre aeronaves situadas en las prolongaciones de ejes de pista adyacentes.",
+      "Operaciones simultáneas en pistas de vuelo por instrumentos, paralelas o casi paralelas, cuando una de las pistas se utiliza exclusivamente para aproximaciones y la otra exclusivamente para salidas.",
+      "Aproximaciones simultáneas a pistas de vuelo por instrumentos, paralelas o casi paralelas, cuando no se prescriben mínimos de separación radar entre aeronaves situadas en las prolongaciones de ejes de pista adyacentes."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 43,
+    "question": "En sentido aeronáutico se denomina visibilidad:",
+    "options": [
+      "La distancia máxima a la que pueda verse y reconocerse un objeto de color negro de dimensiones convenientes, situado cerca del suelo, al ser observado ante un fondo brillante.",
+      "La distancia máxima a la que puedan verse e identificarse las luces de aproximadamente 1.000 candelas ante un fondo no iluminado.",
+      "El valor más elevado de las dos respuestas anteriores."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 44,
+    "question": "Se denomina circuito de tránsito de aeródromo:",
+    "options": [
+      "La trayectoria especificada que deben seguir las aeronaves al evolucionar en las inmediaciones de un aeródromo.",
+      "Todo el tránsito que tiene lugar en el área de maniobras de un aeródromo, y todas las aeronaves que vuelen en las inmediaciones del mismo.",
+      "Un espacio aéreo de dimensiones definidas establecido alrededor de un aeródromo."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 45,
+    "question": "La publicación de información aeronáutica (AIP) es:",
+    "options": [
+      "Es la publicación expedida por cualquier Estado, o con autorización de éste para resolver problemas puntuales indispensables para la navegación aérea.",
+      "Es la publicación expedida por cualquier Estado, o con su autorización, que contiene información aeronáutica de carácter duradero, indispensable para la navegación aérea.",
+      "Información aeronáutica que se publica de forma inmediata cuando un equipo de la navegación aeronáutica se queda fuera de servicio."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 46,
+    "question": "La aeronave en peligro utilizará todas las medidas disponibles para llamar la atención incluido la selección de clave SSR siguiente:",
+    "options": [
+      "7700.",
+      "7600.",
+      "7777."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 47,
+    "question": "Los RPL se utilizarán en vuelos IFR regulares realizados:",
+    "options": [
+      "En el mismo día, o en los mismos días, de semanas consecutivas y, por lo menos, en 10 ocasiones.",
+      "Cotidianamente, durante un período de por lo menos 10 días consecutivos.",
+      "Ambas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 48,
+    "question": "Las características de los vórtices de estela engendrados por una aeronave en vuelo guardan relación con:",
+    "options": [
+      "Su masa bruta.",
+      "Su velocidad.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 49,
+    "question": "¿A qué aeronaves se le presta servicio de alerta?:",
+    "options": [
+      "A las que se sospecha están siendo secuestradas.",
+      "A todas las que hayan presentado un plan de vuelo o se sepa de su existencia, en la medida de lo posible.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 50,
+    "question": "¿Qué cartas aeronáuticas estarán incluidas en el AIP?:",
+    "options": [
+      "Carta de aproximación visual – OACI.",
+      "Plano de obstáculos del aeródromo – OACI, Tipo A.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 51,
+    "question": "Aproximación en circuito es:",
+    "options": [
+      "Maniobra de entrada en el circuito de tránsito de aeródromo.",
+      "Aproximación en un vuelo IFR, realizada mediante referencia visual.",
+      "Prolongación de un procedimiento de aproximación por instrumentos que permite maniobrar alrededor del aeródromo con referencias visuales antes del aterrizaje."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 52,
+    "question": "Una aeronave en emergencia que requiere ayuda inmediata está en fase de:",
+    "options": [
+      "Alerta.",
+      "Peligro.",
+      "Incertidumbre."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 53,
+    "question": "¿En qué condición de emergencia la aeronave no requiere ayuda inmediata?:",
+    "options": [
+      "Urgencia.",
+      "Alerta.",
+      "Salvamento."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 54,
+    "question": "La palabra clave transmitida al comienzo de un mensaje de socorro es:",
+    "options": [
+      "PAN-PAN.",
+      "MAYDAY.",
+      "Auxilio."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 55,
+    "question": "El mensaje que tiene prioridad sobre cualquier otro, excepto sobre el de socorro, es el de:",
+    "options": [
+      "MAYDAY.",
+      "Asistencia.",
+      "Urgencia."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 56,
+    "question": "¿Qué frecuencia se ha designado internacionalmente para las emergencias aeronáuticas?:",
+    "options": [
+      "112.5 MHz.",
+      "121.5 MHz.",
+      "125.1 MHz."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 57,
+    "question": "La dependencia / controlador que se va a hacer cargo del control de una aeronave se denomina:",
+    "options": [
+      "Dependencia / Controlador aceptante.",
+      "Dependencia / Controlador destinatario.",
+      "Dependencia / Controlador remitente."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 58,
+    "question": "CLASE G, ¿es espacio aéreo controlado?:",
+    "options": [
+      "Sí.",
+      "No.",
+      "Sólo para vuelos IFR."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 59,
+    "question": "Los efectos principales de la estela turbulenta en la aeronave que sigue son el balanceo inducido, la pérdida de altura o de velocidad ascensional y, posiblemente, los esfuerzos estructurales:",
+    "options": [
+      "Verdadero.",
+      "Falso.",
+      "La pérdida de altura no es un efecto."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 60,
+    "question": "Para indicar que se encuentra en estado de emergencia una aeronave, equipada con un respondedor SSR, podría hacer funcionar el equipo en la forma siguiente:",
+    "options": [
+      "Modo A código 7700.",
+      "Modo A código 6700.",
+      "Modo A código 8700."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 61,
+    "question": "(Estela turbulenta) La fuerza del vórtice es proporcional al peso. ¿Cuándo alcanza su valor máximo?:",
+    "options": [
+      "Cuando lleva desplegados todos los flaps.",
+      "En el momento de aterrizaje.",
+      "Cuando la aeronave que lo genera es PESADA en configuración limpia y lenta."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 62,
+    "question": "Diferencia entre Eco radar y Traza radar:",
+    "options": [
+      "Traza radar es una indicación visual en una presentación de una señal radar reflejada desde un objeto.",
+      "Eco radar es una indicación visual en forma asimbólica en una presentación radar de la posición de una aeronave obtenida por radar primario o secundario.",
+      "Traza radar es una indicación visual en forma asimbólica en una presentación radar de la posición de una aeronave obtenida por radar primario o secundario. Eco radar es una indicación visual en una presentación de una señal radar reflejada desde un objeto"
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 63,
+    "question": "El funcionamiento del radar primario se basa:",
+    "options": [
+      "En la emisión de impulsos UHF a intervalos regulares y reflexión de estos impulsos sobre los obstáculos.",
+      "La interrogación al equipo de a bordo.",
+      "a y b son correctas."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 64,
+    "question": "¿A qué número de aeronaves puede un controlador radar proporcionar guía vectorial de forma simultánea?:",
+    "options": [
+      "A las que pueda atender con seguridad.",
+      "Dependerá de la complejidad estructural del área o sector de control en cuestión.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 65,
+    "question": "Las autorizaciones ATC proporcionarán separación entre:",
+    "options": [
+      "Vuelos IFR en el espacio aéreo de Clase F.",
+      "Vuelos IFR y vuelos VFR en el espacio aéreo de Clase C.",
+      "Vuelos VFR en el espacio aéreo de Clase G."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 66,
+    "question": "Velocidad que se lee en el anemómetro de la aeronave sin corrección de los errores del sistema indicador:",
+    "options": [
+      "Velocidad indicada.",
+      "Velocidad verdadera.",
+      "Velocidad sobre el suelo."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 67,
+    "question": "Para informar a una aeronave de que se ha perdido la identificación radar se dirá:",
+    "options": [
+      "(call sign) identification lost.",
+      "(call sign) negative squawk.",
+      "(call sign) servicio radar terminado."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 68,
+    "question": "Las autorizaciones ATC proporcionarán separación entre vuelos:",
+    "options": [
+      "IFR in cualquier clase de espacio aéreo.",
+      "IFR en el espacio aéreo de Clase A.",
+      "IFR y vuelos VFR en el espacio aéreo de Clase D."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 69,
+    "question": "En espacio aéreo clase C, entre un vuelo IFR y otro VFR, se les proporcionará:",
+    "options": [
+      "Separación e información de tránsito esencial.",
+      "Asesoramiento anticolisión a solicitud.",
+      "Separación e información de tránsito."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 70,
+    "question": "Señale cuál de las siguientes respuestas NO forma parte de la información sobre el tránsito que proporcionará el personal ATS a las aeronaves involucradas:",
+    "options": [
+      "Dirección del vuelo.",
+      "Velocidad relativa de acercamiento.",
+      "Hora estimada de cruce."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 71,
+    "question": "¿Debe el servicio de control de tránsito aéreo tomar alguna medida especial cuando las mínimas de separación IFR son mayores que las de separación por estela turbulenta?:",
+    "options": [
+      "Siempre.",
+      "No es preciso.",
+      "a y b son falsas."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 72,
+    "question": "Los vuelos VFR tienen obligación de mantener escucha continua en la radiofrecuencia apropiada de los ATS cuando operen dentro de los espacios aéreos de clase:",
+    "options": [
+      "B, C y D.",
+      "E y F.",
+      "Sólo en E."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 73,
+    "question": "Podrá darse autorización a un vuelo IFR para que haga una aproximación visual siempre que el piloto pueda mantener referencia visual con el terreno y:",
+    "options": [
+      "La aproximación visual nunca puede ser propuesta por el controlador.",
+      "La autorización para que un vuelo IFR ejecute una aproximación visual puede ser solicitada por la tripulación de vuelo o iniciada por el controlador. En este caso, se requerirá la aquiescencia de la tripulación de vuelo.",
+      "La solicitud de aproximación visual por el piloto siempre será aceptada por el controlador."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 74,
+    "question": "Como regla general, un vuelo VFR no despegará ni aterrizará en un aeródromo controlado si el techo de nubes es inferior a 450 M/1.500 FT y la visibilidad en tierra es:",
+    "options": [
+      "Inferior a 5 Kms.",
+      "Inferior a 3 Kms.",
+      "Inferior a 4 Kms."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 75,
+    "question": "Como regla general, los vuelos VFR en la región EUR (FIR/UIR MADRID Y FIR/UIR BARCELONA) no se realizarán por encima de nivel de vuelo:",
+    "options": [
+      "150.",
+      "290.",
+      "195."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 76,
+    "question": "¿Qué hará un vuelo VFR, que haya presentado su plan de vuelo, para cambiar a IFR dentro del espacio controlado?:",
+    "options": [
+      "No puede cambiar a IFR dentro del espacio aéreo controlado.",
+      "Comunicar los cambios necesarios al plan de vuelo y obtener autorización para proseguir IFR.",
+      "Descender a un nivel de vuelo IFR apropiado a la derrota y comunicar los cambios a la dependencia ATC."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 77,
+    "question": "Si una autorización de control así lo indica, un vuelo IFR en espacio aéreo controlado puede volar a un nivel de crucero que no se corresponda con su derrota:",
+    "options": [
+      "Cierto.",
+      "Falso.",
+      "Nunca."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 78,
+    "question": "Donde no se haya establecido AMA, los vuelos IFR volarán en áreas no montañosas (o terreno no elevado) a un nivel mínimo por encima del obstáculo más alto dentro de un cierto radio respecto de la posición estimada en vuelo. Dicho nivel y radio son:",
+    "options": [
+      "1.000 pies/5 Km.",
+      "1.000 pies/8 Km.",
+      "2.000 pies/8 Km."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 79,
+    "question": "En aquellas partes del espacio aéreo en las cuales se suministra servicio de control de tránsito aéreo a los VFR son:",
+    "options": [
+      "Espacio aéreo clases A, B y D.",
+      "Espacio aéreo clases B, C y E.",
+      "Espacio aéreo clases B, C y D."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 80,
+    "question": "¿Qué tipo de servicio se suministra en un espacio aéreo clase G?:",
+    "options": [
+      "Asesoramiento a solicitud.",
+      "Información a solicitud.",
+      "Control."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 81,
+    "question": "Pueden autorizarse vuelos VFR especiales:",
+    "options": [
+      "Solo durante el día, a menos que la autoridad competente permita lo contrario.",
+      "Cuando la visibilidad en tierra no sea inferior a 1.000 m o, para helicópteros, no inferior a 800 m.",
+      "Durante el día y la noche."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 82,
+    "question": "Cuando una aeronave, que se encuentra bajo el control de una oficina de aproximación, se enfrente a una situación de emergencia, el controlador:",
+    "options": [
+      "Lo comunicará al centro coordinador de vigilancia.",
+      "Informará a la dependencia militar más próxima.",
+      "Notificará inmediatamente el hecho al ACC."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 83,
+    "question": "Los vuelos VFR estarán sujetos al servicio de Control de Tránsito Aéreo cuando vuelen dentro de espacio aéreo de las clases:",
+    "options": [
+      "A, B, C y D.",
+      "B, C y D.",
+      "B, C, D y E."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 84,
+    "question": "Fase de emergencia indica:",
+    "options": [
+      "Situación en la cual se abriga temor por la seguridad de una aeronave y sus ocupantes.",
+      "Expresión genérica que significa, según el caso, Fase de Incertidumbre, Alerta o Peligro.",
+      "Ninguna es correcta."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 85,
+    "question": "Cualquier tipo de transmisión, emisión o recepción de señales, signos, escritura, sonidos o informaciones de cualquier naturaleza por hilo, radio, medios ópticos u otros sistemas electromagnéticos es a lo que llamamos:",
+    "options": [
+      "Transmisión aire -tierra -aire.",
+      "Telecomunicación.",
+      "Radiotelefonía."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 86,
+    "question": "Cuando la calidad de una recepción es de “3”, se debe interpretar que es:",
+    "options": [
+      "Legible.",
+      "Legible de vez en cuando.",
+      "Legible con dificultad."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 87,
+    "question": "Las rutas normalizadas de salida y de llegada deberán…",
+    "options": [
+      "Tener en cuenta los procedimientos de atenuación de ruidos.",
+      "Proporcionar un adecuado margen vertical sobre el terreno.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 88,
+    "question": "Cada ruta normalizada de salida para vuelo por instrumentos deberá establecerse y publicarse como una ruta completa teniendo en cuenta que…",
+    "options": [
+      "Toda desviación de carácter permanente deberá publicarse como ruta separada.",
+      "Toda desviación temporal deberá publicarse como ruta separada.",
+      "Ninguna es correcta."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 89,
+    "question": "¿Cómo se identificaría abreviadamente el vuelo ECCIF?:",
+    "options": [
+      "EC-IF.",
+      "E-IF.",
+      "EC-F."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 90,
+    "question": "Una aeronave podrá cambiar su indicativo cuando:",
+    "options": [
+      "El piloto lo solicite.",
+      "El piloto lo solicite y la dependencia de control de afluencia lo autorice.",
+      "Las dependencias de control de tráfico aéreo lo requieran para la seguridad, por un tiempo determinado."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 91,
+    "question": "La información de tránsito esencial incluye, entre otros datos:",
+    "options": [
+      "Dirección que siguen las aeronaves involucradas.",
+      "Nivel de vuelo y hora prevista sobre el punto de notificación más próximo a aquél en que se cruzará el nivel.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 92,
+    "question": "Aquella situación en que se está amenazado por un riesgo serio o inminente y de requerir ayuda inmediata, se considera una situación de:",
+    "options": [
+      "Urgencia.",
+      "Peligro.",
+      "Riesgo."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 93,
+    "question": "Las condiciones de socorro y de imposición de silencio se terminarán con un mensaje en la frecuencia(s) que se esté(n) utilizando para las comunicaciones de socorro, que incluya los términos:",
+    "options": [
+      "Situación de emergencia terminada / Emergency traffic ended.",
+      "Situación de socorro finalizado / Distress situation ended.",
+      "Tráfico de socorro terminado/ Distress traffic ended."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 94,
+    "question": "Si una aeronave fuera objeto de interferencia ilícita, los servicios ATS deberán:",
+    "options": [
+      "Darle prioridad.",
+      "Atender prontamente las peticiones de la aeronave.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 95,
+    "question": "Un cambio de vuelo IFR a VFR supone en todo caso:",
+    "options": [
+      "La cancelación del vuelo IFR.",
+      "La suspensión temporal del vuelo IFR.",
+      "Dejar de ser un vuelo controlado."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 96,
+    "question": "Serán catalogadas como Operaciones Especiales las realizadas por aeronaves en:",
+    "options": [
+      "Misiones de vigilancia y persecución del tráfico en carreteras.",
+      "Misiones de control medioambiental realizadas por las autoridades públicas.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 97,
+    "question": "Un vuelo que opera como VFR y desea cambiar a IFR:",
+    "options": [
+      "Debe notificar el cambio y esperar la oportuna autorización si vuela o pretende volar en espacio aéreo controlado.",
+      "Debe notificar el cambio y no hace falta esperar la autorización del ATC.",
+      "No está permitido el cambio de reglas de vuelo."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 98,
+    "question": "La información de tránsito esencial NO incluye, entre otros datos:",
+    "options": [
+      "Dirección que siguen las aeronaves involucradas.",
+      "Tipo de aeronaves de que se trate.",
+      "Velocidad de las aeronaves involucradas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 99,
+    "question": "La fraseología a utilizar por la dependencia transferidora en la comunicación relativa a la solicitud de aprobación es:",
+    "options": [
+      "Requiero aprobación (distintivo de la aeronave).",
+      "Approval request (aircraft call sign).",
+      "Pido autorización (distintivo de la aeronave)."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 100,
+    "question": "¿Quién es el responsable de mantener la separación con el terreno?:",
+    "options": [
+      "El piloto sólo.",
+      "El controlador sólo.",
+      "El controlador proporcionando guía vectorial radar a un vuelo IFR."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 101,
+    "question": "El nivel mínimo de crucero es:",
+    "options": [
+      "El que corresponde a la altitud mínima establecida o uno inmediatamente superior.",
+      "Dependerá de la presión actual y prevista.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 102,
+    "question": "Se proporcionará separación vertical u horizontal entre:",
+    "options": [
+      "Vuelos VFR y vuelos VFR especiales en espacio aéreo clase C.",
+      "Vuelos IFR y vuelos VFR en cualquier clase de espacio aéreo.",
+      "Vuelos VFR en espacio aéreo clase B."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 103,
+    "question": "En el contexto de entorno RVSM se considerarán aeronaves de Estado:",
+    "options": [
+      "Aeronaves de aduana.",
+      "Aeronaves militares.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 104,
+    "question": "La proyección sobre la superficie terrestre de la trayectoria de una aeronave, cuya dirección en cualquier punto se expresa generalmente en grados a partir del norte (geográfico, magnético o de la cuadrícula) es:",
+    "options": [
+      "Derrota.",
+      "Rumbo.",
+      "Ruta magnética."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 105,
+    "question": "Código discreto:",
+    "options": [
+      "Cualquier código SSR.",
+      "Código SSR de interferencia ilícita.",
+      "Código SSR cuyas dos últimas cifras no son “00”."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 106,
+    "question": "Como regla general, la Circulación Aérea Operativa sigue las reglas:",
+    "options": [
+      "RCA.",
+      "REDAN.",
+      "RCAO."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 107,
+    "question": "Entre la documentación integrada de Información aeronáutica se encuentran los siguientes elementos:",
+    "options": [
+      "Las AIP, con las enmiendas correspondientes.",
+      "Los NOTAM.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 108,
+    "question": "Indica cuál de las siguientes afirmaciones es CIERTA:",
+    "options": [
+      "Un piloto puede solicitar una autorización modificada.",
+      "Una autorización ATC no puede incluir indicación del régimen de ascenso.",
+      "Una autorización para cruzar una pista en uso no se colaciona."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 109,
+    "question": "¿Qué Reglamento es aplicable a una aeronave española volando sobre territorio/espacio aéreo fuera del la Comunidad Europea?:",
+    "options": [
+      "El SERA, siempre que no infrinja las normas publicadas por el país que tenga jurisdicción sobre el territorio sobrevolado.",
+      "Las normas de la OACI, siempre que no se opongan al SERA.",
+      "El Reglamento del aire español, siempre que no se oponga a las normas de OACI."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 110,
+    "question": "La dirección en que apunta el eje longitudinal de una aeronave, expresada generalmente en grados respecto al norte (geográfico, magnético, de la brújula o de la cuadrícula), se denomina:",
+    "options": [
+      "Derrota.",
+      "Ruta.",
+      "Rumbo."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 111,
+    "question": "Se define como Circulación Aérea Operativa:",
+    "options": [
+      "A los vuelos realizados según las normas y los procedimientos establecidos por la Autoridad civil del Estado y que operan de acuerdo con el RCA.",
+      "Tránsito militar que opera de acuerdo con el Reglamento de la Circulación Aérea Operativa.",
+      "a y b son correctas."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 112,
+    "question": "En condiciones normales, el piloto al mando de la aeronave será responsable de que la operación se realice de acuerdo con el SERA.",
+    "options": [
+      "Sólo cuando está manipulando los mandos.",
+      "Siempre, manipule o no los mandos.",
+      "Excepto cuando delegue en otro tripulante."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 113,
+    "question": "¿Qué razón permitiría al piloto dejar de cumplir el Reglamento de Aire?:",
+    "options": [
+      "Seguridad.",
+      "Conveniencia.",
+      "Ahorro de combustible."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 114,
+    "question": "La ruta designada, según reglas de vuelos por instrumentos, que une el aeródromo de salida con un determinado punto significativo, en la cual comienza la fase en ruta de un vuelo, se denomina:",
+    "options": [
+      "STAR.",
+      "SID.",
+      "FAF."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 115,
+    "question": "ATM es la sigla que corresponde a:",
+    "options": [
+      "Gestión del tránsito aéreo.",
+      "Gestión del espacio aéreo.",
+      "Gestión de afluencia del tránsito aéreo."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 116,
+    "question": "La hora utilizada por los ATS es:",
+    "options": [
+      "La hora convenida regionalmente.",
+      "La hora UTC.",
+      "La asignada por OACI a ese Estado."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 117,
+    "question": "Entre otras circunstancias, ¿cuándo debe el piloto verificar la hora, según el RCA?:",
+    "options": [
+      "Antes de iniciar cualquier vuelo.",
+      "Al formular el Plan de Vuelo.",
+      "Antes de iniciar un vuelo controlado."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 118,
+    "question": "Dependencia de los servicios de búsqueda y salvamento: expresión genérica que significa, según el caso:",
+    "options": [
+      "Centro coordinador de salvamento.",
+      "Subcentro de salvamento.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 119,
+    "question": "Si una vez finalizado un proceso de coordinación, alguna dependencia desea proponer un cambio en las condiciones de transferencia, deberá llamar a la otra dependencia interesada y:",
+    "options": [
+      "Repetir todo el proceso de coordinación.",
+      "Comunicar el cambio a la otra dependencia y sin esperar su aceptación dar por concluido el proceso.",
+      "No puede hacer nada, ya que las condiciones de transferencia, una vez coordinadas, no son susceptibles de cambio."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 120,
+    "question": "Las aeronaves militares podrán efectuar sus vuelos en formación…",
+    "options": [
+      "En circulación aérea general (CAG).",
+      "En circulación aérea operativa (CAO).",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 121,
+    "question": "¿Cuáles de las siguientes abreviaturas están relacionadas con los Planes de Vuelo?:",
+    "options": [
+      "PLN / CNL / CPL.",
+      "REA/ ILS / PLN.",
+      "CPL / CHG/ ILS."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 122,
+    "question": "El término Plan de Vuelo como expresión genérica, ¿qué abreviatura tiene?:",
+    "options": [
+      "FPN.",
+      "PLN.",
+      "PFL."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 123,
+    "question": "¿Qué abreviatura tiene un “Plan de Vuelo presentado”?:",
+    "options": [
+      "PPL.",
+      "FPL.",
+      "PFL."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 124,
+    "question": "Como regla general, se presentará un Plan de Vuelo antes de:",
+    "options": [
+      "Realizar un vuelo IFR dentro de espacio aéreo con servicio de asesoramiento.",
+      "Realizar un vuelo a través de fronteras internacionales.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 125,
+    "question": "Un VFR deberá presentar plan de vuelo si la aeronave va a operar en:",
+    "options": [
+      "Espacio aéreo clase B, C o D.",
+      "Un ATZ.",
+      "Espacio aéreo clase E, F y G."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 126,
+    "question": "El plan de vuelo actualizado:",
+    "options": [
+      "Coincide con el Plan de vuelo presentado.",
+      "Se refiere a vuelos VFR.",
+      "Tiene como abreviatura CPL."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 127,
+    "question": "La abreviatura correspondiente a “Plan de vuelo actualizado” es:",
+    "options": [
+      "FPL.",
+      "PLA.",
+      "CPL."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 128,
+    "question": "El proceso de coordinación se considera finalizado cuando, mediante un procedimiento operacional o lógico, se aceptan por ambas partes las condiciones propuestas de transferencia mediante un mensaje:",
+    "options": [
+      "ACP y/o LAM.",
+      "CDN y ACT.",
+      "CPL y LAM."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 129,
+    "question": "Una aeronave con plan de vuelo VFR volando en espacio “D”:",
+    "options": [
+      "Tiene obligación de mantener escucha en la radiofrecuencia apropiada.",
+      "Sólo tiene obligación de mantener escucha en la radiofrecuencia apropiada en espacio B y C.",
+      "Depende del nivel de vuelo."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 130,
+    "question": "Salvo que se haya prescrito otro parámetro de tiempo, el tiempo mínimo de antelación con que la dependencia aceptante debe recibir un mensaje CPL y EST, antes de que la aeronave entre en el espacio aéreo bajo su jurisdicción, es de:",
+    "options": [
+      "15 min.",
+      "20 min.",
+      "5 min."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 131,
+    "question": "La tripulación de vuelo colacionará:",
+    "options": [
+      "Autorización de ruta ATC y la temperatura del aeródromo.",
+      "El slot ATFM sólo cuando difiera en más de 10 min. de la EOBT.",
+      "Código SSR."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 132,
+    "question": "La información relativa a la hora estimada al punto de transferencia de responsabilidad corresponde a un mensaje:",
+    "options": [
+      "ACP.",
+      "EST.",
+      "CDN."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 133,
+    "question": "Si el procedimiento con sistema automático de intercambio de datos falla o es necesario repetir una coordinación ya efectuada con dicho procedimiento se deberá:",
+    "options": [
+      "Repetir el proceso de coordinación mediante el sistema automático.",
+      "Utilizar, sin otra opción, la línea AFTN.",
+      "Utilizar el circuito oral directo para repetir el proceso de coordinación."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 134,
+    "question": "¿Cuál de los siguientes acrónimos/siglas es correcto?:",
+    "options": [
+      "CPL- Mensaje de plan de vuelo cancelado.",
+      "ACP- Mensaje de recibo del plan de vuelo.",
+      "EST- mensaje de estimación."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 135,
+    "question": "Un proceso de coordinación repetido debe completarse mediante la transmisión de un mensaje:",
+    "options": [
+      "CPL.",
+      "ACP.",
+      "CAN."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 136,
+    "question": "En un proceso de coordinación de la transferencia de control, la respuesta que debe dar una estación receptora/aceptante cuando no cuenta con datos del plan de vuelo debe ser:",
+    "options": [
+      "No hay plan de vuelo.",
+      "No hay datos.",
+      "No hay detalles."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 137,
+    "question": "La fórmula reglamentaria para que, en el proceso de coordinación, la dependencia transmisora/transferidora anuncie el vuelo a la aceptante/receptora es:",
+    "options": [
+      "Estimado (punto significativo) para (indicativo de la aeronave).",
+      "Estimada (indicativo de la aeronave) sobre (punto significativo).",
+      "Estimación (punto significativo) para (indicativo de la aeronave)."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 138,
+    "question": "Una aeronave puede ser transferida en ascenso o descenso, con tal de que haya sido aprobado por la dependencia aceptante.",
+    "options": [
+      "Cierto.",
+      "Falso.",
+      "Nunca."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 139,
+    "question": "Cuando no se haya determinado un TCP, la transferencia de control entre dos sectores de control de distintas dependencias se producirá:",
+    "options": [
+      "Donde imponga la dependencia aceptante.",
+      "Donde imponga la dependencia transferidora.",
+      "En el límite común de ambos sectores."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 140,
+    "question": "Si una aeronave estima sobre el TCP a las 10:00, ¿a qué hora límite debería la dependencia transferidora haber anunciado dicho vuelo a la dependencia aceptante y qué tipo de mensaje corresponde?:",
+    "options": [
+      "09:40/ACP.",
+      "09:40/EST.",
+      "09:45/EST."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 141,
+    "question": "Una dependencia que presta Servicio de Control de Área podría también prestar:",
+    "options": [
+      "Servicio de control de aeródromo.",
+      "Servicio de control de aproximación.",
+      "No puede prestar ningún otro servicio ATC."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 142,
+    "question": "El proceso de coordinación se realiza utilizando el sistema de comunicaciones del:",
+    "options": [
+      "Servicio móvil aeronáutico.",
+      "Servicio fijo aeronáutico.",
+      "Se puede realizar por ambos, según resulte adecuado."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 143,
+    "question": "El servicio de información de vuelo que se suministra a los vuelos incluirá los peligros de colisión que puedan existir para las aeronaves.",
+    "options": [
+      "Cierto.",
+      "Falso.",
+      "En el espacio aéreo de clases C, D, E, F y G."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 144,
+    "question": "La prevención de colisiones con el terreno no exime al piloto de su responsabilidad de cerciorarse de que cualquier autorización ofrece seguridad a este respecto, excepto:",
+    "options": [
+      "En las proximidades de los aeródromos.",
+      "Cuando un vuelo IFR es guiado por vectores radar.",
+      "Cuando un vuelo VFR se encuentre condiciones IMC."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 145,
+    "question": "Para proporcionar el servicio de control de tránsito aéreo, la dependencia de control de tránsito aéreo deberá:",
+    "options": [
+      "Expedir autorizaciones e información a efectos de evitar la colisión entre las aeronaves que estén bajo su control.",
+      "Determinar, a partir de la información recibida, las posiciones relativas entre sí de las aeronaves conocidas y desconocidas.",
+      "a y b son correctas."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 146,
+    "question": "Se colacionarán en todos los casos los siguientes elementos:",
+    "options": [
+      "Autorizaciones de ruta ATC.",
+      "Autorizaciones e instrucciones para entrar, aterrizar, despegar, mantenerse en espera a distancia, cruzar, realizar el rodaje y retroceder en cualquier pista.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 147,
+    "question": "¿Cómo se solicita autorización de ATC para un vuelo controlado?:",
+    "options": [
+      "Presentando plan de vuelo.",
+      "Llamando por radio.",
+      "a y b son correctas."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 148,
+    "question": "Cuando una aeronave pretenda salir de un área de control para proseguir su vuelo fuera del espacio aéreo controlado y posteriormente vaya a entrar de nuevo en la misma área de control o en otra, podrá otorgarse una autorización desde el punto de salida:",
+    "options": [
+      "Hasta el punto de salida del espacio aéreo controlado.",
+      "Hasta el aeródromo de destino.",
+      "Hasta el primer punto de reentrada en espacio aéreo controlado."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 149,
+    "question": "En el caso de que un vuelo controlado se desvíe inadvertidamente de su plan de vuelo actualizado, se hará lo siguiente:",
+    "options": [
+      "Si el promedio de TAS al nivel de crucero varía en un 5% en más o en menos respecto a la consignada en el plan de vuelo, se notificará a la dependencia ATS correspondiente.",
+      "Si la aeronave se desvía de la derrota, tomará medidas inmediatamente para rectificar su rumbo con objeto de volver a la derrota lo antes posible.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 150,
+    "question": "Cuando sea evidente que no será factible el vuelo en condiciones VMC de conformidad con su plan de vuelo actualizado, el vuelo VFR que se realice como controlado deberá:",
+    "options": [
+      "Solicitar una autorización para continuar como IFR.",
+      "Si vuela dentro de una zona de control, solicitar autorización para continuar como vuelo VFR especial.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 151,
+    "question": "El servicio de información de vuelo se suministrará a todas las aeronaves a las que probablemente pueda afectar la información y a las que:",
+    "options": [
+      "Se les suministra servicio de control de tránsito aéreo.",
+      "De otro modo tienen conocimiento las dependencias pertinentes de los servicios de tránsito aéreo.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 152,
+    "question": "El servicio de información de vuelo no exime al piloto al mando de una aeronave de ninguna de sus responsabilidades.",
+    "options": [
+      "Cierto.",
+      "Falso.",
+      "Solo en algunas circunstancias."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 153,
+    "question": "No es necesaria autorización ATC:",
+    "options": [
+      "En los espacios aéreos de clase F y G.",
+      "En los espacios aéreos de clase B y C.",
+      "En los espacios aéreos de clase D, E y F."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 154,
+    "question": "El servicio de información de vuelo incluirá el suministro de la pertinente:",
+    "options": [
+      "Información sobre demoras.",
+      "Información sobre disponibilidad de servicios para repostaje de aeronaves.",
+      "Información SIGMET y AIRMET."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 155,
+    "question": "Por debajo de 10000 ft, la visibilidad mínima para estar VMC es:",
+    "options": [
+      "8 km.",
+      "5 Nm.",
+      "5 km."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 156,
+    "question": "La dependencia de servicios de tránsito aéreo correspondiente, cuando conteste a una aeronave que esté acusando recibo de un mensaje ATIS suministrará a la aeronave el reglaje del altímetro en vigor.",
+    "options": [
+      "Siempre.",
+      "Si no es ATIS-D.",
+      "Cuando haya variado."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 157,
+    "question": "Las dependencias de servicios de tránsito aéreo suministrarán el servicio de alerta a cualquier aeronave que se sepa o se crea que está siendo objeto de interferencia ilícita:",
+    "options": [
+      "Solo si han presentado plan de vuelo.",
+      "Solo si cuentan con servicio de control de tránsito aéreo.",
+      "Cierto."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 158,
+    "question": "Si se desconoce la posición de la aeronave, la dependencia de servicios de tránsito aéreo:",
+    "options": [
+      "Intentará establecer una comunicación en ambos sentidos con la aeronave, a menos que dicha comunicación ya exista.",
+      "Informará, de conformidad con los procedimientos convenidos localmente, a las dependencias militares que corresponda.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 159,
+    "question": "En caso de observar turbulencia moderada o grave las aeronaves la notificarán:",
+    "options": [
+      "A la dependencia ATS correspondiente.",
+      "A la oficina meteorológica más cercana.",
+      "A la autoridad competente."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 160,
+    "question": "...---... es señal de:",
+    "options": [
+      "Emergencia.",
+      "Socorro.",
+      "Urgencia."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 161,
+    "question": "—..— —..— —..— es señal de:",
+    "options": [
+      "Que una aeronave tiene que transmitir un mensaje urgentísimo relativo a la seguridad.",
+      "Que una aeronave tiene fuego a bordo.",
+      "Que una aeronave tiene que aterrizar de manera inmediata."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 162,
+    "question": "—..— —..— —..— es equivalente a:",
+    "options": [
+      "MAYDAY.",
+      "PAN PAN.",
+      "ZZZ."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 163,
+    "question": "...---... es equivalente a:",
+    "options": [
+      "MAYDAY.",
+      "PAN PAN.",
+      "ZZZ."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 164,
+    "question": "¿Cuál de las siguientes afirmaciones es incorrecta tras la implantación del SERA 04/12/2014?:",
+    "options": [
+      "La AESA es autoridad competente civil.",
+      "Un vuelo en situación de combustible mínimo no tiene prioridad sobre el resto del tráfico.",
+      "Toda aerovía ha de estar equipada con radioayudas para la navegación."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 165,
+    "question": "La información sobre peligro de colisión ha de ser transmitida de forma clara e inequívoca. El orden correcto de dicha información es:",
+    "options": [
+      "A las 12 de su posición, se encuentra un CRJ a FL 110 en sentido opuesto.",
+      "A la 1 de su posición, a 6NM cruzando de derecha a izquierda, a 1000ft por encima suya B412 Fénix lento.",
+      "PA28 a 8 NM a las 5 de su posición a 1000ft por debajo suya mismo rumbo."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 166,
+    "question": "Cuando las dependencias de los servicios de tránsito aéreo suministren tanto servicio de información de vuelo como servicio de control de tránsito aéreo:",
+    "options": [
+      "El suministro del servicio de control de tránsito aéreo no tendrá preferencia respecto al suministro del servicio de información de vuelo.",
+      "El suministro del servicio de control de tránsito aéreo tendrá preferencia respecto al suministro del servicio de información de vuelo.",
+      "El suministro del servicio de información de vuelo tendrá preferencia respecto al suministro del servicio control de tránsito aéreo."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 167,
+    "question": "¿Es obligatorio utilizar el transpondedor en las TMZ?:",
+    "options": [
+      "Sí.",
+      "No.",
+      "Si así se especifica en el AIP."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 168,
+    "question": "El Servicio de alerta incluye a las aeronaves objeto de interferencia ilícita.",
+    "options": [
+      "Cierto, tan pronto como sepa o sospeche tal circunstancia.",
+      "Cierto, tras haberse confirmado el hecho.",
+      "Falso."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 169,
+    "question": "La comunicación aeroterrestre es entre aeronaves y estaciones en tierra:",
+    "options": [
+      "En ambos sentidos.",
+      "En cualquier sentido.",
+      "Entre la aeronave y la estación."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 170,
+    "question": "Las instrucciones del ATC:",
+    "options": [
+      "Autorizan a la aeronave a proceder en condiciones específicas.",
+      "Obligan al piloto a realizar una acción determinada.",
+      "Son consejos que se dan al piloto por su seguridad."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 171,
+    "question": "El servicio de alerta:",
+    "options": [
+      "No es un servicio ATS.",
+      "Es un servicio ATC.",
+      "Es un servicio ATS."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 172,
+    "question": "La autoridad designada como tal por el Estado miembro para garantizar que se cumplan los requisitos del SERA es:",
+    "options": [
+      "La autoridad reguladora",
+      "La autoridad supervisora.",
+      "La autoridad competente."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 173,
+    "question": "El plan de vuelo que comprende las modificaciones, si las hay, que resultan de incorporar autorizaciones posteriores es:",
+    "options": [
+      "El plan de vuelo activado.",
+      "El plan de vuelo coordinado.",
+      "El plan de vuelo actualizado."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 174,
+    "question": "La hora prevista de llegada para los vuelos IFR a un aeródromo con ayudas a la navegación:",
+    "options": [
+      "Es la hora de llegada a un punto desde el que iniciará la aproximación.",
+      "Es la hora de llegada sobre el aeródromo.",
+      "Es la hora de aterrizaje."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 175,
+    "question": "Cuántos modos SSR especifica el SERA, en referencia al anexo 10 de OACI:",
+    "options": [
+      "2.",
+      "3.",
+      "4."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 176,
+    "question": "¿Es obligatorio utilizar la radio en las RMZ?:",
+    "options": [
+      "Sí.",
+      "No.",
+      "Si así se especifica en el AIP."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 177,
+    "question": "Se suministrará un servicio de control de tránsito aéreo:",
+    "options": [
+      "A todos los vuelos VFR en los espacios aéreos de clase B, F y G.",
+      "A todos los vuelos IFR en los espacios aéreos de clase A, B, C, D y E.",
+      "A todos los vuelos IFR en los espacios aéreos de clase A y B."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 178,
+    "question": "Si una aeronave se desvía significativamente de su derrota prevista se la considera:",
+    "options": [
+      "Aeronave perdida.",
+      "Aeronave extraviada.",
+      "Aeronave fuera de ruta de plan de vuelo."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 179,
+    "question": "¿Qué clase de servicio de control sólo puede ser prestado por una dependencia específicamente establecida al efecto?:",
+    "options": [
+      "Aproximación.",
+      "Aeródromo.",
+      "Área."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 180,
+    "question": "¿Las misiones militares se consideran operaciones especiales?:",
+    "options": [
+      "Sí.",
+      "No.",
+      "Sí, cuando no son operacionales."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 181,
+    "question": "Las fichas de progresión de vuelo se conservarán por un período de:",
+    "options": [
+      "30 días.",
+      "15 días.",
+      "45 días."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 182,
+    "question": "El SERA es de aplicación a las aeronaves:",
+    "options": [
+      "Con destino a la Unión Europea.",
+      "Con matrícula de un Estado miembro de la Unión Europea.",
+      "a e b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 183,
+    "question": "Las reglas generales las deben cumplir:",
+    "options": [
+      "Todos los vuelos IFR y VFR.",
+      "Los vuelos lFR únicamente.",
+      "Los vuelos VFR únicamente."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 184,
+    "question": "Antes de iniciar un vuelo, el piloto al mando de la aeronave se familiarizará con toda la información disponible apropiada para la operación prevista.",
+    "options": [
+      "Falso.",
+      "Cierto.",
+      "Solo si no se va a limitar el vuelo a las inmediaciones del aeródromo."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 185,
+    "question": "Un vuelo en formación:",
+    "options": [
+      "Se considera una única aeronave en lo que respecta a la navegación.",
+      "En espacio aéreo controlado, cada aeronave que lo compone notificará su posición independientemente.",
+      "Ambas respuestas son correctas."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 186,
+    "question": "Cuando dos aeronaves se aproximan de frente:",
+    "options": [
+      "Ambas aeronaves alterarán su rumbo hacia la derecha.",
+      "Ambas aeronaves alterarán su rumbo hacia la izquierda.",
+      "La aeronave más rápida cederá el paso."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 187,
+    "question": "La información presentada antes de la salida respecto a la autonomía de combustible o al número total de personas transportadas a bordo, si es inexacta en el momento de la salida:",
+    "options": [
+      "No se debe notificar.",
+      "Constituye un cambio importante en el plan de vuelo y como tal debe notificarse.",
+      "Solo se debe notificar la autonomía."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 188,
+    "question": "Cuando no haya dependencia de los servicios de tránsito aéreo en el aeródromo o lugar de operaciones de llegada, el aviso de llegada se dará, cuando se requiera:",
+    "options": [
+      "Lo antes posible después de aterrizar.",
+      "Por los medios más rápidos de que se disponga.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 189,
+    "question": "A 11000 ft. La visibilidad mínima para estar VMC es:",
+    "options": [
+      "8 km.",
+      "4 Nm.",
+      "1000 ft."
+    ],
+    "correct": 0,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 190,
+    "question": "Las personas que podrían poner en peligro la seguridad de la aviación si cumplieran sus obligaciones y funciones del modo indebido son:",
+    "options": [
+      "Personal de seguridad.",
+      "Personal que ejerce funciones delicadas desde el punto de vista de la seguridad.",
+      "Pilotos y controladores exclusivamente."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 191,
+    "question": "Los objetivos del Servicio de Alerta comprenden notificar a los Organismos pertinentes respecto de las aeronaves que necesiten ayuda de búsqueda y salvamento y:",
+    "options": [
+      "Asesorar a dichos Organismos en todo momento.",
+      "Auxiliar a dichos Organismos, según sea necesario.",
+      "Coordinar a dichos Organismos, según sea necesario."
+    ],
+    "correct": 1,
+    "topic": "RCA Comunes"
+  },
+  {
+    "id": 192,
+    "question": "Se entiende por capacidad sostenible, la máxima afluencia de tránsito en una unidad de tiempo especificada que cabe mantener a lo largo de un tiempo, de conformidad con los requisitos de seguridad y el factor medio de demora aceptable:",
+    "options": [
+      "Verdadero.",
+      "Falso.",
+      "La capacidad disponible."
+    ],
+    "correct": 0,
+    "topic": "ATFM"
+  },
+  {
+    "id": 193,
+    "question": "El slot AFTM",
+    "options": [
+      "Solo se debe cumplir cuando el vuelo no sea IFR",
+      "Lo asigna el ACC de destino del vuelo",
+      "es parte de la autorización de control de tránsito aéreo"
+    ],
+    "correct": 2,
+    "topic": "ATFM"
+  },
+  {
+    "id": 194,
+    "question": "Al medir la demanda frente a la capacidad ATC se toman en cuenta",
+    "options": [
+      "Todos los vuelos IFR y VFR",
+      "Todos los vuelos IFR",
+      "Todos los vuelos VFR"
+    ],
+    "correct": 1,
+    "topic": "ATFM"
+  },
+  {
+    "id": 195,
+    "question": "Al evaluar los valores de la capacidad, el proveedor de servicios de tránsito aéreo deberá tener en cuenta",
+    "options": [
+      "el nivel y el tipo de ATS suministrado",
+      "los periodos de descanso de los controladores",
+      "la situación meteorológica"
+    ],
+    "correct": 0,
+    "topic": "ATFM"
+  },
+  {
+    "id": 196,
+    "question": "Se entiende por capacidad declarada (o publicada)",
+    "options": [
+      "la máxima afluencia de tránsito alcanzable en una unidad de tiempo específica que cabe mantener a lo largo de un tiempo",
+      "la máxima afluencia de tránsito que puede alcanzarse solamente en la unidad de tiempo especificada, normalmente una hora, pero que no se mantiene durante un largo período",
+      "la capacidad notificada a los organismos apropiado"
+    ],
+    "correct": 2,
+    "topic": "ATFM"
+  },
+  {
+    "id": 197,
+    "question": "Se entiende por capacidad máxima",
+    "options": [
+      "la máxima afluencia de tránsito alcanzable en una unidad de tiempo específica que cabe mantener a lo largo de un tiempo",
+      "la máxima afluencia de tránsito que puede alcanzarse solamente en la unidad de tiempo especificada, normalmente una hora, pero que no se mantiene durante un largo período",
+      "la capacidad notificada a los organismos apropiado"
+    ],
+    "correct": 1,
+    "topic": "ATFM"
+  },
+  {
+    "id": 198,
+    "question": "Se entiende por capacidad máxima, la máxima afluencia de tránsito que puede alcanzarse en una unidad de tiempo especificada, normalmente una hora, pero que no se mantiene durante un largo período:",
+    "options": [
+      "Verdadero.",
+      "Falso.",
+      "La capacidad sostenible."
+    ],
+    "correct": 0,
+    "topic": "ATFM"
+  },
+  {
+    "id": 199,
+    "question": "Cuando sea necesario gestionar la demanda frente a la capacidad del ATC, se asignarán turnos de salida mediante la hora calculada de despegue cuyas siglas son:",
+    "options": [
+      "EOBT.",
+      "SLOT.",
+      "CTOT."
+    ],
+    "correct": 2,
+    "topic": "ATFM"
+  },
+  {
+    "id": 200,
+    "question": "Para evaluar la demanda frente a la capacidad del ATC se tendrán en cuenta:",
+    "options": [
+      "Todos los vuelos IFR y VFR.",
+      "Todos los vuelos IFR, incluyendo los vuelos mixtos IFR/VFR.",
+      "Sólo los vuelos IFR."
+    ],
+    "correct": 1,
+    "topic": "ATFM"
+  },
+  {
+    "id": 201,
+    "question": "¿En qué se basará la capacidad declarada?:",
+    "options": [
+      "La capacidad máxima.",
+      "La capacidad sostenible.",
+      "La capacidad disponible."
+    ],
+    "correct": 1,
+    "topic": "ATFM"
+  },
+  {
+    "id": 202,
+    "question": "¿Puede ser la capacidad máxima que puede lograrse, durante períodos cortos, mayor que la capacidad sostenible?:",
+    "options": [
+      "Sí.",
+      "No.",
+      "Nunca."
+    ],
+    "correct": 0,
+    "topic": "ATFM"
+  },
+  {
+    "id": 203,
+    "question": "Se entiende por capacidad sostenible",
+    "options": [
+      "la máxima afluencia de tránsito alcanzable en una unidad de tiempo específica que cabe mantener a lo largo de un tiempo",
+      "la máxima afluencia de tránsito que puede alcanzarse solamente en la unidad de tiempo especificada, normalmente una hora, pero que no se mantiene durante un largo período",
+      "la capacidad notificada a los organismos apropiado"
+    ],
+    "correct": 0,
+    "topic": "ATFM"
+  },
+  {
+    "id": 204,
+    "question": "Entre qué niveles se aplica la separación vertical RVSM (1000 Ft.):",
+    "options": [
+      "Entre nivel de vuelo 280 y nivel de vuelo 410 ambos inclusive.",
+      "Entre nivel de vuelo 290 y nivel de vuelo 410 ambos inclusive.",
+      "Entre nivel de vuelo 290 y nivel de vuelo 390 ambos inclusive."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 205,
+    "question": "Ninguna aeronave podrá operar en el espacio aéreo EUR RVSM, excluyendo aeronaves de estado.",
+    "options": [
+      "A menos que disponga de aprobación RVSM.",
+      "Las ambulancias si pueden operar aunque no tengan aprobación RVSM.",
+      "Todas son correctas."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 206,
+    "question": "De los siguientes requisitos que han de darse para que el controlador pueda autorizar el ascenso/descenso cuidando propia separación con respecto a una parte concreta del vuelo. Indica cuál es correcta:",
+    "options": [
+      "Debe solicitarlo un piloto y aceptarlo el otro. Por debajo de 10.000 ft. Sólo durante el día y en condiciones VMC",
+      "Puede proponerlo una dependencia ATC y aceptarlo la aeronave a cualquier nivel de vuelo.",
+      "Lo propone la dependencia ATC y deberá aceptarlo el piloto que cruza por detrás."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 207,
+    "question": "Si se ha determinedo positivamente que las aeronaves se han cruzado:",
+    "options": [
+      "La separación vertical se proveerá por lo menos DIEZ minutos antes y hasta diez minutos después, del momento en que se prevea que las aeronaves se cruzarán o se hayan cruzado.",
+      "No es necesario aplicar la separación vertical durante 10 minutos.",
+      "La separación vertical se proveerá por lo menos CINCO minutos antes y hasta diez minutos después, del momento en que se prevea que las aeronaves se cruzarán o se hayan cruzado."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 208,
+    "question": "Donde las ayudas para la navegación basadas en tierra o el GNSS permitan determinar frecuentemente la posición y la velocidad se podrá autorizar una separación longitudinal mínima de:",
+    "options": [
+      "8 minutos.",
+      "5 minutos.",
+      "10 minutos."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 209,
+    "question": "¿Para qué separación lateral es necesario que ambas aeronaves se alejen de la ayuda?:",
+    "options": [
+      "NDB.",
+      "DR.",
+      "a y b son correctas."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 210,
+    "question": "Quién selecciona las mínimas de separación aplicables en una parte del espacio aéreo:",
+    "options": [
+      "La autoridad designada.",
+      "La autoridad competente.",
+      "El proveedor de servicios de navegación aérea."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 211,
+    "question": "La aeronave que siga un nivel de crucero:",
+    "options": [
+      "Deberá cederlo a otras aeronaves que lo soliciten si éstas son más rápidas.",
+      "Tendrá normalmente prioridad sobre otras que soliciten pasar a ese nivel.",
+      "Si es alcanzada por otra, deberá abandonar el nivel."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 212,
+    "question": "Si es necesario cambiar el nivel de crucero de una aeronave que opera a lo largo de una ruta ATS establecida, que se extiende en parte dentro y en parte fuera del espacio aéreo controlado:",
+    "options": [
+      "Dicho cambio se efectuará siempre que sea posible, DENTRO del espacio aéreo controlado.",
+      "Dicho cambio se efectuará siempre que sea posible, FUERA del espacio aéreo controlado.",
+      "Se puede hacer en cualquier lugar sin preferencia."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 213,
+    "question": "El proveedor de servicios de tránsito aéreo podrá autorizar, a petición del operador de la aeronave, los vuelos VFR por encima de FL 195 y hasta FL 285, cuando las circunstancias del tránsito lo permitan.",
+    "options": [
+      "CIERTO.",
+      "FALSO.",
+      "Solo previa autorización del Director de la AESA."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 214,
+    "question": "Un espacio aéreo de dimensiones definidas dentro del cual es obligatorio llevar a bordo y utilizar equipo de radio, se denomina:",
+    "options": [
+      "RMZ.",
+      "RMA.",
+      "TMZ."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 215,
+    "question": "Podrá autorizarse que una aeronave pase a un nivel previamente ocupado por otra aeronave, después de que esta haya notificado que lo ha dejado libre, excepto cuando:",
+    "options": [
+      "Se sabe que existe turbulencia fuerte.",
+      "La diferencia de performance de las aeronaves es tal que puede llevar a una separación inferior a la mínima aplicable.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 216,
+    "question": "Las mínimas de separación entre una aeronave que esté realizando vaciado de combustible y el resto del tráfico serán:",
+    "options": [
+      "10 km. de separación horizontal por delante de la aeronave que vacía combustible.",
+      "Una separación vertical si se encuentra detrás de la aeronave que vacía combustible correspondiente a 15 minutos de tiempo de vuelo o 50 millas náuticas, de 300 metros por encima.",
+      "Ambas son correctas"
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 217,
+    "question": "En el caso de que una aeronave pueda ser autorizada a ocupar un nivel previamente ocupado por otra:",
+    "options": [
+      "Podrá ser autorizada en cuanto al otra haya notificado que ha librado ese nivel.",
+      "Será autorizada solo cuando la otra haya alcanzado o librado un nivel que cumpla la separación mínima reglamentaria.",
+      "Dependerá de factores como la existencia de turbulencia o la diferencia entre performances de ambas aeronaves."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 218,
+    "question": "En caso de que un piloto solicite un cambio que no puede ser autorizado, se usará la siguiente fraseología:",
+    "options": [
+      "Negativo (ESP)/ Not available (ENG).",
+      "Imposible (ESP)/ Unable (ENG).",
+      "Mantenga escucha (ESP)/ Stand by (ENG)."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 219,
+    "question": "En condiciones de vuelo visual para toda la aproximación, un ACC puede transferir un tráfico directamente a una torre de control de aeródromo:",
+    "options": [
+      "Cuando lo acepta la torre del aeródromo de destino.",
+      "Previa coordinación con la dependencia que proporcione los servicios de control de aproximación.",
+      "En ningún caso."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 220,
+    "question": "Cuando una dependencia ATC cambie el tipo de distintivo de llamada de una aeronave, dicha dependencia se asegurará:",
+    "options": [
+      "De que la aeronave vuelve al distintivo de llamada indicado en el plan de vuelo al pasar al control de otra dependencia ATC.",
+      "De que el cambio de distintivo de llamada haya sido coordinado entre las dos dependencias ATC interesadas.",
+      "Ambas acciones pueden ser correctas."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 221,
+    "question": "Por encima de FL410:",
+    "options": [
+      "La separación vertical será de 1000 ft.",
+      "La separación vertical será de 2000 ft.",
+      "La separación vertical será de 1000 ft si es RVSM."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 222,
+    "question": "¿A partir de qué altitud es posible que una aeronave supersónica se vea obligada a descender si encuentra un nivel crítico de radiaciones cósmicas?:",
+    "options": [
+      "FL 470.",
+      "FL490.",
+      "FL510."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 223,
+    "question": "La separación lateral se obtiene:",
+    "options": [
+      "Manteniendo un intervalo entre las aeronaves que llevan la misma derrota.",
+      "Manteniendo las aeronaves en rutas diferentes o en zonas geográficas diferentes.",
+      "Manteniendo un intervalo entre las aeronaves que llevan la misma derrota, o derrotas convergentes o recíprocas."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 224,
+    "question": "Las mínimas de separación aplicables dentro de una parte determinada del espacio aéreo:",
+    "options": [
+      "Las mínimas separaciones aplicables serán visuales dentro de los espacios correspondientes dependiendo de la situación.",
+      "Serán determinadas por el controlador de servicios teniendo en cuenta la su propia capacidad de maniobrabilidad.",
+      "Serán seleccionadas por el proveedor de servicios de navegación aérea responsable del suministro de servicios de tránsito aéreo y aprobadas por la autoridad competente correspondiente."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 225,
+    "question": "Con respecto a la colación de autorizaciones, qué respuesta te parece correcta:",
+    "options": [
+      "El controlador escuchará la colación para asegurarse de que la tripulación de vuelo ha recibido correctamente la autorización o la instrucción y adoptará medidas inmediatas para corregir cualquier discrepancia revelada por la colación.",
+      "Se exigirá la colación oral de los mensajes CPDLC, a menos que el proveedor de servicios de navegación aérea indique lo contrario.",
+      "La tripulación de vuelo no colacionará al controlador de tránsito aéreo las partes relacionadas con la seguridad de las autorizaciones de control de tránsito aéreo (ATC)."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 226,
+    "question": "El servicio de información de vuelo que se suministra a los vuelos incluirá:",
+    "options": [
+      "Las condiciones meteorológicas notificadas o pronosticadas en los aeródromos de salida, de destino y de alternativa.",
+      "Los peligros de colisión que puedan existir para las aeronaves que operen en el espacio aéreo de clases C, D, E, F y G.",
+      "Todas las respuestas son correctas."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 227,
+    "question": "Respecto al vaciado de combustible en vuelo.",
+    "options": [
+      "El nivel de vuelo, que no debería ser inferior a 1.800 m (6.000 ft).",
+      "Se debería hacer como mínimo a las altitudes mínimas de referencia de la zona coordinada (MVA, MSA o MEA).",
+      "Las dos son correctas, lo que resulte superior."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 228,
+    "question": "Cuando una dependencia de servicios de tránsito aéreo sepa o sospeche que una aeronave está siendo objeto de una interferencia ilícita, no se hará referencia alguna en las comunicaciones ATS aeroterrestres a la naturaleza de la emergencia:",
+    "options": [
+      "CIERTO.",
+      "FALSO.",
+      "A menos que se haya hecho antes referencia a ella en las comunicaciones procedentes de la aeronave afectada y se tenga la certeza de que tal referencia no agravará la situación."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 229,
+    "question": "La aprobación RVSM que se otorga a una aeronave por la Autoridad apropiada del estado del operador o del estado de matrícula, autoriza a dicha aeronave a operar en espacio aéreo RVSM:",
+    "options": [
+      "De cualquier parte del mundo.",
+      "Sólo de la región a la que pertenece dicho Estado.",
+      "Sólo del estado que otorga la autorización."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 230,
+    "question": "Para indicar que se encuentra en estado de emergencia, ¿qué código deberá responder la aeronave, si es posible?:",
+    "options": [
+      "7700.",
+      "7500.",
+      "El mismo que tenía cuando lo comunicó."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 231,
+    "question": "Antes de suministrar servicio de vigilancia ATS a una aeronave se establecerá su identificación.",
+    "options": [
+      "Cierto, y además se informará al piloto.",
+      "Cierto, pero no es necesario informar al piloto.",
+      "Cierto si el servicio proporcionado es control, pero no si se trata de información o asesoramiento."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 232,
+    "question": "No se guiará vectorialmente a los vuelos controlados de modo que entren en espacios aéreos no controlados, salvo petición expresa del piloto.",
+    "options": [
+      "Cierto.",
+      "Falso.",
+      "Nunca."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 233,
+    "question": "¿A quién corresponde la responsabilidad de ajustar la presentación de PPI?:",
+    "options": [
+      "A los técnicos de mantenimiento.",
+      "Al supervisor de la sala.",
+      "Al controlador de servicio."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 234,
+    "question": "Una aeronave identificada que ha recibido instrucciones del ATC para responder 4260, en caso de emergencia:",
+    "options": [
+      "Continuaría respondiendo 4260.",
+      "Respondería 7600.",
+      "Respondería 7700."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 235,
+    "question": "Quién aprueba las mínimas de separación aplicables en una parte del espacio aéreo:",
+    "options": [
+      "La autoridad designada.",
+      "La autoridad competente.",
+      "El proveedor de servicios de navegación aérea."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 236,
+    "question": "Se define el espacio aéreo RVSM como un volumen de espacio aéreo determinado dentro del cual se aplica, en virtud de un acuerdo regional de navegación aérea una separación vertical mínima entre aeronaves de 300 m (1.000 ft). Los límites verticales de dicho espacio RVSM son:",
+    "options": [
+      "Límite inferior: siempre FL 290, límite superior siempre FL 410 en espacio aéreo EUR RVSM.",
+      "Límite inferior: siempre FL 290, límite superior FL 430.",
+      "Límite inferior y límite superior: los que se determinen por acuerdo regional de navegación aérea."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 237,
+    "question": "Excepto cuando vaya a efectuarse la transferencia del control radar, no se guiará vectorialmente a la aeronave de modo que se acerque a menos de:",
+    "options": [
+      "2,5 NM del límite del espacio aéreo del que sea responsable el controlador.",
+      "4,5 NM del límite del espacio aéreo del que sea responsable el controlador.",
+      "3 NM del límite del espacio aéreo del que sea responsable el controlador."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 238,
+    "question": "Los cambios de niveles de vuelo que no sean RVSM a niveles de vuelo RVSM serán iniciados por:",
+    "options": [
+      "El primer ACC/UAC que suministre RVSM, y se completará antes de que la aeronave pase el punto de transferencia al ACC/UAC adyacente.",
+      "El piloto de la aeronave al entrar en espacio RVSM y estará completada antes de entrar en el ACC adyacente.",
+      "Ninguna es correcta."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 239,
+    "question": "Las tareas de transición se han de llevar a cabo en las áreas de transición, que han de estar situadas:",
+    "options": [
+      "Dentro del espacio RVSM.",
+      "Fuera de espacio RVSM.",
+      "Pueden estar tanto en espacio RVSM como fuera de espacio RVSM."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 240,
+    "question": "Los únicos niveles de vuelo en los que cambia el sentido de utilización en la derrota al pasar de un espacio RVSM a otro NO RVSM, y viceversa, son:",
+    "options": [
+      "FL 310, FL 330 y FL 370.",
+      "FL 310, FL 350 y FL 390.",
+      "FL 330, FL 350 y FL 370."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 241,
+    "question": "La separación vertical mínima a aplicar a una aeronave de estado, con aprobación RVSM, operando a FL 330, será de:",
+    "options": [
+      "1.000 ft respecto a otras aeronaves con aprobación RVSM, dentro de espacio aéreo RVSM.",
+      "2.000 ft respecto a otras aeronaves con aprobación RVSM, dentro de espacio aéreo RVSM.",
+      "1.000 ft respecto a otras aeronaves con aprobación RVSM, dentro de espacio aéreo NO RVSM."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 242,
+    "question": "En España, los vuelos VFR civiles pueden operar en espacio aéreo RVSM:",
+    "options": [
+      "Dentro de las áreas de transición.",
+      "En ningún caso.",
+      "Dentro del espacio RVSM en su totalidad."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 243,
+    "question": "En España, la separación vertical mínima entre vuelos IFR será de:",
+    "options": [
+      "1.000 pies hasta 290 y 2.000 pies hasta nivel 390, inclusive, excepto en el área RVSM.",
+      "1.000 pies hasta 280 y 2.000 pies a partir de este nivel.",
+      "Ninguna es correcta."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 244,
+    "question": "Para lograr una separación deseada en base al control de velocidad de las aeronaves, el tiempo y la distancia requeridas para lograr dicha separación…",
+    "options": [
+      "Aumentarán a niveles superiores.",
+      "Aumentarán cuando la aeronave esté en una configuración limpia.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 245,
+    "question": "La abreviatura RVSM significa:",
+    "options": [
+      "Separación visual mínima reducida.",
+      "Separación vertical mínima reducida.",
+      "Reducción vertical de la separación mínima."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 246,
+    "question": "La separación basada en RNAV puede aplicarse:",
+    "options": [
+      "A aeronaves dotadas de equipos RNAV volando en rutas RNAV designadas.",
+      "A aeronaves dotadas de equipos RNAV volando en rutas ATS definidas por VOR.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 247,
+    "question": "Cuando el controlador radar proporcione guía vectorial a una aeronave debería dar cumplimiento a lo siguiente:",
+    "options": [
+      "Informar al piloto, siempre que el vector le desvíe de la ruta previamente asignada, de lo que se trata de conseguir con el vector en cuestión.",
+      "Guiar a la aeronave, siempre que sea factible, a lo largo de rutas en las que el piloto pueda controlar la posición de la aeronave por referencia a ayudas de navegación.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 248,
+    "question": "“Velocidad mínima limpia” significa: velocidad mínima a la cual una aeronave puede volar sin desplegar dispositivos de aumento de la sustentación, frenos aerodinámicos o tren de aterrizaje.",
+    "options": [
+      "Verdadero.",
+      "Falso.",
+      "No existe velocidad limpia."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 249,
+    "question": "Por debajo de FL 250, los ajustes de velocidad deberían expresarse:",
+    "options": [
+      "En múltiplos de 10 Kt.",
+      "En múltiplos de 20 Kt.",
+      "En múltiplos de 0,01 Mach."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 250,
+    "question": "¿A partir de qué nivel de vuelo deberán expresarse los ajustes de velocidad en múltiplos de 0,01 Mach?:",
+    "options": [
+      "Depende de los límites del TMA.",
+      "Por encima de FL 290.",
+      "Por encima de FL 250."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 251,
+    "question": "El controlador, cuando un piloto notifica la realización de un RA…",
+    "options": [
+      "Modificará la trayectoria de vuelo de la aeronave.",
+      "Proporcionará información sobre el tránsito.",
+      "Ninguna es correcta."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 252,
+    "question": "Para que un controlador confirme que una aeronave ha recuperado su aprobación RVSM o para confirmar que el piloto está listo para reanudar las operaciones RVSM:",
+    "options": [
+      "Notifique listo para reanudar RVSM.",
+      "Report ready to resume RVSM.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 253,
+    "question": "Cuando una turbulencia fuerte afecte a la capacidad de la aeronave para mantener los requisitos de mantenimiento de altura para la RVSM, el piloto notificará:",
+    "options": [
+      "Unable RVSM due turbulence.",
+      "Unable to maintain RVSM conditions due to turbulence.",
+      "Unable to maintain RVSM separation due turbulence."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 254,
+    "question": "Para que el control de tránsito aéreo niegue una autorización para entrar en el espacio aéreo EUR RVSM:",
+    "options": [
+      "Unable to approve into RVSM airspace.",
+      "Unable to enter into RVSM airspace.",
+      "Unable clearance into RVSM airspace."
+    ],
+    "correct": 2,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 255,
+    "question": "¿Cómo informaría a las estaciones de que una aeronave está realizando un vaciado rápido de combustible?:",
+    "options": [
+      "To all aircraft attention, fuel dumping in progress.",
+      "Attention all aircraft, fuel dumping in progress over…",
+      "Attention all aircraft, fuel falling progress."
+    ],
+    "correct": 1,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 256,
+    "question": "La separación vertical mínima reducida será:",
+    "options": [
+      "1.000 ft entre aeronaves con aprobación RVSM volando entre FL 290 y FL 410, ambos inclusive, en espacio aéreo EUR RVSM.",
+      "1.000 ft entre aeronaves de estado volando entre FL 290 y FL 410, ambos inclusive.",
+      "1.000 ft entre aeronaves volando entre FL 280 y FL 410, ambos inclusive, en espacio aéreo EUR RVSM."
+    ],
+    "correct": 0,
+    "topic": "Control Vigilancia Ruta ACS"
+  },
+  {
+    "id": 257,
+    "question": "La información SIGMET se refiere a fenómenos meteorológicos",
+    "options": [
+      "reales",
+      "previstos",
+      "reales o previstos"
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 258,
+    "question": "¿En qué caso se expresará la altura sobre el umbral de la pista?",
+    "options": [
+      "Siempre que se vuele sobre QFE",
+      "Volando QFE para pistas cuyo umbral esté 2 metros o más por debajo de la elevación del aeródromo",
+      "Para aproximaciones directas"
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 259,
+    "question": "La intensidad de la estela turbulenta depende del:",
+    "options": [
+      "Peso y velocidad.",
+      "Tipo de avión generador de los vórtices.",
+      "a y b son correctas."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 260,
+    "question": "La oficina designada para suministrar servicio meteorológico para la navegación aérea internacional se llama:",
+    "options": [
+      "Observatorio del INM (Instituto Nacional de Meteorología).",
+      "Torre de observación meteorológica.",
+      "Oficina meteorológica."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 261,
+    "question": "Guía para decodificar información meteorológica: ¿sobre qué tipo de nubes debe facilitarse información a las aeronaves?:",
+    "options": [
+      "CU.",
+      "TCB.",
+      "CB."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 262,
+    "question": "A las dependencias de los servicios de tránsito aéreo se les facilitará información actualizada sobre las condiciones meteorológicas existentes con una frecuencia",
+    "options": [
+      "Mínimo 1 hora",
+      "Cada 30 minutos",
+      "Que satisfaga las necesidades de las dependencias de los servicios de tránsito aéreo de que se trate"
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 263,
+    "question": "Altura a la que, sobre la tierra o el agua, se encuentra la base de la capa inferior de nubes por debajo de 6.000 metros (20.000 pies) y que cubre más de la mitad del cielo, se denomina:",
+    "options": [
+      "Altura de nubes.",
+      "Techo de nubes.",
+      "Capa de nubes."
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 264,
+    "question": "La altitud de transición será superior, como mínimo, en",
+    "options": [
+      "1000 pies sobre la elevación del aeródromo",
+      "1500 pies sobre la elevación del aeródromo",
+      "2000 pies sobre la elevación del aeródromo"
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 265,
+    "question": "El reglaje de altímetro comunicado a las aeronaves se redondeará al hectopascal",
+    "options": [
+      "Entero superior más próximo.",
+      "Entero inferior más próximo.",
+      "No se redondea"
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 266,
+    "question": "Visibilidad en vuelo",
+    "options": [
+      "visibilidad hacia adelante desde el puesto de pilotaje de una aeronave en vuelo",
+      "visibilidad en todas direcciones desde el puesto de pilotaje de una aeronave en vuelo",
+      "visibilidad hacia adelante desde el puesto de pilotaje de una aeronave en tierra"
+    ],
+    "correct": 0,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 267,
+    "question": "La información AIRMET se refiere a fenómenos meteorológicos",
+    "options": [
+      "reales",
+      "previstos",
+      "reales o previstos"
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 268,
+    "question": "Es techo de nubes si las nubes, entre otros requisitos:",
+    "options": [
+      "ocupan más de 2/3 del cielo",
+      "ocupan más de la mitad del cielo",
+      "ocupan más de 1/3 del cielo"
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 269,
+    "question": "La visibilidad en tierra la mide",
+    "options": [
+      "Un observador competente",
+      "Medios automáticos",
+      "Ambas son correctas"
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 270,
+    "question": "En el aeropuerto de Sabadell el valor de QNH es de 1040, con altitud de transición de 6.000 ft. ¿Cuál será el valor del nivel de transición?:",
+    "options": [
+      "FL 70.",
+      "FL 75.",
+      "FL 65."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 271,
+    "question": "“Techo de nubes” es la altura sobre el suelo (tierra o agua) a la que se encuentra la capa inferior de nubes, siempre que ésta cubra más de la mitad del cielo y se halle a una altura inferior a:",
+    "options": [
+      "20.000 pies (6.000 metros).",
+      "10.000 pies (3.000 metros).",
+      "5.000 pies (1.500 metros)."
+    ],
+    "correct": 0,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 272,
+    "question": "Un cumulonimbo es \"nube de importancia para las operaciones\"",
+    "options": [
+      "Si la altura de la base es inferior a 5000 ft",
+      "Si la altura de la base es inferior a la mínima del sector",
+      "A cualquier altura"
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 273,
+    "question": "Un QNH de 1015.8 hPa se comunicará como:",
+    "options": [
+      "Q-N-H uno cero uno cinco decimal ocho.",
+      "Altímetro uno cero uno seis.",
+      "Q-N-H uno cero uno cinco."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 274,
+    "question": "El valor de tolerancia que se utilizará para determinar que la información sobre el nivel derivada del Modo C presentada al controlador es exacta, será de:",
+    "options": [
+      "± 60 m (± 200 ft) en espacio aéreo RVSM.",
+      "± 90 m (± 300 ft) en otro tipo de espacio aéreo.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 275,
+    "question": "El servicio de información de vuelo incluirá el suministro de:",
+    "options": [
+      "Información SIGMET y AIRMET.",
+      "Información relativa a la actividad volcánica precursora de erupción, erupciones volcánicas y nubes de ceniza volcánica.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 276,
+    "question": "¿Cómo se denomina al espacio aéreo comprendido entre la altitud de transición y el nivel de transición?:",
+    "options": [
+      "Zona de transición.",
+      "Capa de transición.",
+      "Área de transición de vuelo."
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 277,
+    "question": "Para vuelos en la cercanía de aeródromos, la posición vertical estará expresada en términos de ……….. cuando se descienda a través de la capa de transición.",
+    "options": [
+      "Altitudes.",
+      "Altitud de transición.",
+      "Niveles."
+    ],
+    "correct": 0,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 278,
+    "question": "Cuando se ascienda a través de la capa de transición, la posición vertical de una aeronave se expresará como:",
+    "options": [
+      "Altitudes.",
+      "Altitud de transición.",
+      "Nivel de vuelo."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 279,
+    "question": "Se incluirá el reglaje QNH de altímetro en las autorizaciones de:",
+    "options": [
+      "Aproximación.",
+      "Entrada en circuito.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 280,
+    "question": "Sea el QNH de 1024 hPa, la TA de 6.000 FT y el TL de 70 FL, ¿cuál será el nivel de vuelo más bajo utilizable?:",
+    "options": [
+      "70.",
+      "75.",
+      "65."
+    ],
+    "correct": 0,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 281,
+    "question": "En la capa de transición, la posición vertical de las aeronaves se expresará en niveles de vuelo:",
+    "options": [
+      "Para aeronaves en ascenso.",
+      "Depende del reglaje QNH de altímetro.",
+      "Depende del ancho de la capa de transición."
+    ],
+    "correct": 0,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 282,
+    "question": "Para aproximaciones de precisión, un altímetro calado a QFE tendrá su cero en:",
+    "options": [
+      "Las proximidades del aeródromo.",
+      "En el punto de referencia de elevación de la torre de control del aeródromo.",
+      "En el umbral de la pista en uso."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 283,
+    "question": "Un altímetro calado a QNH y situado en el punto de elevación de aeródromo marcará:",
+    "options": [
+      "Cero.",
+      "La elevación del aeródromo.",
+      "La altura de transición."
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 284,
+    "question": "En el aeropuerto de Granada, el valor de QNH es de 994, con altitud de transición de 7.000 ft. ¿Cuál será el valor del nivel de transición?:",
+    "options": [
+      "FL 80.",
+      "FL 85.",
+      "FL 90."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 285,
+    "question": "La capa de transición ha de tener un ancho mínimo de:",
+    "options": [
+      "1.500 FT.",
+      "1.000 FT.",
+      "Depende de la presión barométrica."
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 286,
+    "question": "La información SIGMET se proporciona a:",
+    "options": [
+      "Sólo a vuelos IFR.",
+      "Sólo a vuelos VFR.",
+      "Tanto a los VFR como a los IFR."
+    ],
+    "correct": 2,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 287,
+    "question": "La presión atmosférica varía con la altura, pero ¿de qué manera?:",
+    "options": [
+      "A más altura más presión.",
+      "A más altura menos presión.",
+      "No varía con la altura."
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 288,
+    "question": "La altitud a la cual, o por debajo de la cual, se controla la posición vertical de una aeronave por referencia a altitudes, se denomina:",
+    "options": [
+      "Altitud mínima de sector.",
+      "Altitud de transición.",
+      "Altitud mínima de área."
+    ],
+    "correct": 1,
+    "topic": "Meteo-Altimetría"
+  },
+  {
+    "id": 289,
+    "question": "Si el colateral es SACTA, el NFL del sector aceptante, es igual al XFL del sector transferidor, y debe ser el último nivel al que haya autorizado el trafico antes de transferirlo",
+    "options": [
+      "VERDADERO",
+      "FALSO",
+      "El nivel al que se transfiere debe reflejarlo en el ECL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 290,
+    "question": "LECP propone que se junten los sectores LVS y VSL en LECB con el fin de eliminar regulaciones en el sector IXX y que además le cuenten todos los movimientos que entren por RESTU como propios",
+    "options": [
+      "Estamos de acuerdo, todos los controladores del ACC pueden trabajar en ese nuevo sector",
+      "Llamamos a SYSRED para contar con su experta opinión y elevados conocimientos en este tema",
+      "Esa configuración no se puede aplicar en LECB"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 291,
+    "question": "Un tráfico notifica que pierde las condiciones RVSM. A nivel de SACTA, ¿qué casilla hay que modificar en el plan de vuelo?",
+    "options": [
+      "El campo W",
+      "El campo Y",
+      "Ninguna de las 2 es correcta"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 292,
+    "question": "Un tráfico entra por MAMES-BGR a FL390. Llegando a BGR no ha llamado todavía. ¿A qué sector se llama para que pasen el tráfico?",
+    "options": [
+      "LFMM M4",
+      "LFMM F4",
+      "LFBB H4"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 293,
+    "question": "La frecuencia del GO3 es:",
+    "options": [
+      "126,855",
+      "118,035",
+      "134,68"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 294,
+    "question": "Para equilibrar la secuencia de llegadas a LEPA, los supervisores de LECB y LECP podrán coordinar tácticamente el desvío de determinados tráficos de LORES a:",
+    "options": [
+      "KENAS",
+      "LUNIK",
+      "Las dos anteriores son ciertas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 295,
+    "question": "Ante la notificación por parte de alguna aeronave de una situación meteorológica extraordinaria (turbulencia fuerte, engelamiento fuerte, tormentas…), el CTA deberá transmitir la información a:",
+    "options": [
+      "Al supervisor de la sala",
+      "Las aeronaves y las dependencias colaterales que pudieran resultar afectadas",
+      "Las dos anteriores son ciertas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 296,
+    "question": "Para un vuelo asumido en SACTA, el campo sector muestra:",
+    "options": [
+      "El sector al que se transferirá el vuelo",
+      "El sector que nos ha transferido el vuelo",
+      "El sector que tiene asumido el vuelo"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 297,
+    "question": "Qué palabra se utiliza, en fraseología estándar, para instruir al piloto de una aeronave a que cambie de nivel a un nivel superior",
+    "options": [
+      "ASCIENDA",
+      "ESCALE",
+      "SUBA"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 298,
+    "question": "Un Dep LEPA ruta SURIB LABRO con RFL350, el volumen VSL lo transfiere al sector LVS/LGU a FL:",
+    "options": [
+      "FL 240",
+      "RFL",
+      "FL coordinado"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 299,
+    "question": "Según el Manual Operativo de LECB, un despegue de LECH con RFL 360 vía GODOX – PTC es transferido del LVS/LGL al VSL en ascenso a:",
+    "options": [
+      "FL 280.",
+      "FL 300.",
+      "FL 320."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 300,
+    "question": "Si en un punto de la \" Ruta Gráfica\" o \" Trayectoria Planificada\" nos encontramos un nivel entre dos barras horizontales, ¿ qué significa?",
+    "options": [
+      "Es un nivel calculado por SACTA según performances de aeronave",
+      "Es un nivel forzado en base de datos para ajustar la lista de sectores de paso al procedimiento de la dependencia",
+      "a) y b) correctas"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 301,
+    "question": "El nivel de transferencia de una salida de LEBL por OSPOK es:",
+    "options": [
+      "FL300 siempre",
+      "FL340 siempre",
+      "FL340 en Verano y sin restricciones en Invierno"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 302,
+    "question": "¿Qué indica el descriptor CHK (\"CHECK\") del campo STS (status) del plan de vuelo?",
+    "options": [
+      "Que es un tráfico con destino República Checa",
+      "Que se trata de un vuelo Hospital",
+      "Que existe más de una clave STS en la casilla 18 del Plan de Vuelo y que debe comprobarse su contenido"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 303,
+    "question": "¿Tiene alguna restricción el TAP345 LPPT destino LFMN (Niza) en DIBER?",
+    "options": [
+      "No, ninguna",
+      "Si, FL 300 máximo",
+      "Si, FL 340 máximo"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 304,
+    "question": "¿Cuál es el procedimiento a seguir ante una llegada a LEPA vía ALBER-GIR-LORES a FL350?",
+    "options": [
+      "LFBB a ECL--> CCU lo desciende a FL340 establecido en GIR-->CCL lo desciende a FL200-->LECP",
+      "LFBB a ECL--> CCU lo desciende a FL330 establecido en GIR-->CCL lo desciende a FL200-->LECP",
+      "LFBB a ECL--> CCU lo desciende a FL coordinado-->CCL lo desciende a FL200-->LECP"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 305,
+    "question": "Trabajando en RUTA con radar en modo Autónomo Multiradar aplicaremos una separación longitudinal de:",
+    "options": [
+      "5NM",
+      "8NM",
+      "10NM"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 306,
+    "question": "¿Quién monitoriza el tráfico existente y previsto en cada sector?",
+    "options": [
+      "El técnico de control de afluencia (TCA) Regional durante su horario de trabajo",
+      "El TCA de la Unidad Central, fuera del horario de trabajo del TCA regional.",
+      "Las dos anteriores son ciertas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 307,
+    "question": "En caso de descenso de emergencia, y cuando se considere necesario:",
+    "options": [
+      "El ATC emitirá un mensaje de emergencia para alertar sobre el descenso de emergencia al resto de aeronaves afectadas",
+      "El ATC requerirá al piloto el número de pasajeros a bordo",
+      "El ATC se encomendará al TCAS"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 308,
+    "question": "En LECB, se presta servicio de Control de Ruta:",
+    "options": [
+      "H12",
+      "H24",
+      "En 6-2"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 309,
+    "question": "RAM602 GMMX-LFML vía BCN a FL360:",
+    "options": [
+      "CCU↓ FL340 → VNI",
+      "CCU↓ FL300 establecido en DALIN → LFMM",
+      "CCU↓ FL310 establecido en DALIN → XAL"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 310,
+    "question": "El responsable de ASUMIR el tráfico en SACTA es:",
+    "options": [
+      "El supervisor",
+      "El controlador planificador",
+      "El controlador ejecutivo"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 311,
+    "question": "El uso de la función \"Tramo Ruta\", que une la pista radar con un futuro punto",
+    "options": [
+      "Puede modificar la lista de sectores",
+      "Puede modificar el modelado",
+      "a) y b) son correctas"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 312,
+    "question": "Con el fin de evitar regulaciones en el sector IXX de LECP, el Supervisor de esta dependencia solicita que el tráfico destino LEIB vía CORDA proceda por KENAS/LUNIK como indica la LoA",
+    "options": [
+      "La LoA con LECP no contiene dicha mención",
+      "Funcionando con CF2 no es necesario seguir los procedimientos de la LoA, dadas las enormes ventajas del nuevo entorno operativo",
+      "Se puede siempre que se cumpla que el tráfico esté a FL 230- 15 NM antes de POS"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 313,
+    "question": "El número de sectores y las diferentes posibilidades de apertura dependen de:",
+    "options": [
+      "La demanda de tráfico",
+      "El número de controladores en servicio",
+      "Las dos anteriores son ciertas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 314,
+    "question": "¿Qué información podemos eludir al hacer el relevo en UCS de ruta?",
+    "options": [
+      "El nombre del controlador del sector colateral",
+      "Tormentas, desvíos",
+      "Conflictos potenciales"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 315,
+    "question": "CCU desciende los tráficos destino LEVC y LEZG a FL350 y los transfiere al GO2:",
+    "options": [
+      "VERDADERO",
+      "Los baja a FL330",
+      "Sólo desciende el destino LEVC"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 316,
+    "question": "El procedimiento aplicable a un tráfico despegue de LEBL vía MJV- MOGIL/BUYAH, con RFL 330 es:",
+    "options": [
+      "CCL recibe el TFC en ascenso a FL250 e lo autoriza a RFL",
+      "CCL recibe el TFC en ascenso a FL190, lo autoriza a 250, y lo transfiere a VSL, que lo autoriza a RFL",
+      "CCL recibe el TFC en ascenso a FL190, lo autoriza a RFL y lo transfiere a VSL"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 317,
+    "question": "La frecuencia del sector GO1 es:",
+    "options": [
+      "134,680 MHz",
+      "134,985 MHz",
+      "118,035 MHz"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 318,
+    "question": "La frecuencia del CCL es:",
+    "options": [
+      "135.355 MHz",
+      "125.730 MHz",
+      "127.625 MHz"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 319,
+    "question": "El procedimiento aplicable para un tráfico LEAS-LEIB vía MARIO-BCN-CORDA a FL300 es:",
+    "options": [
+      "El sector CCL recibe el tráfico del sector XAL y lo transfiere a LECP en descenso a FL 220 cruzando CORDA a FL 240-",
+      "El sector DDS recibe el tráfico de LECM, lo transfiere al sector XAL que lo transfiere a LECP en descenso a FL 220 cruzando 5 NM al sur de BCN a FL 280+ y CORDA a FL 240-",
+      "El sector CCL recibe el tráfico del sector XAR, ↓ FL220 coordinando con el sector XAL y lo transfiere a LECP a FL 220 sin ninguna restricción en su descenso"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 320,
+    "question": "Tráfico en despegue de LEAL por BRUNO-IZA-TURKRO con RFL 360 el sector LAG lo sube",
+    "options": [
+      "a RFL según su plan de vuelo aprobado y lo pasa con el VSU",
+      "a FL340 y lo pasa al VSL",
+      "a FL coordinado con el VSL por el muro de las coordinaciones"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 321,
+    "question": "Una X en el campo W del plan de vuelo SACTA significa:",
+    "options": [
+      "Vuelo certificado RVSM",
+      "Vuelo no certificado RVSM",
+      "Vuelo exento RVSM"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 322,
+    "question": "Cuando se produzca un cambio de condición RVSM a NO RVSM, en el campo W del plan de vuelo SACTA introducimos una:",
+    "options": [
+      "S",
+      "N",
+      "X"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 323,
+    "question": "Cuando se separan sectores, el CTA que abre:",
+    "options": [
+      "Comprobará que todos los tráficos en su jurisdicción están en frecuencia",
+      "Supondrá que todos los tráficos en su jurisdicción están en frecuencia",
+      "Pasará a todos los tráficos a la siguiente frecuencia"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 324,
+    "question": "Un asterisco (*) en color amarillo en la etiqueta de la pista radar indica:",
+    "options": [
+      "Vuelo no certificado y no exento RVSM",
+      "Vuelo no certificado RVSM pero exento RVSM",
+      "Vuelo que ha cambiado su condición RVSM"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 325,
+    "question": "Dos asteriscos () en color amarillo en la etiqueta de la pista radar indican:**",
+    "options": [
+      "Vuelo no certificado y no exento RVSM",
+      "Vuelo no certificado RVSM pero exento RVSM",
+      "Vuelo que ha cambiado su condición RVSM"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 326,
+    "question": "Para los despegues de LERS/LEDA vía OSPOK:",
+    "options": [
+      "FL 320 máximo",
+      "XAL coordina nivel con el MNL",
+      "XAL coordina nivel con el VNI"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 327,
+    "question": "Para una arribada a LFMN vía DIBER:",
+    "options": [
+      "El VNI la recibe del CCU a FL340 y la transfiere a LFMM",
+      "VNI ↓ FL340 → LFMM",
+      "VNI ↓ FL300 → LFMM"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 328,
+    "question": "El procedimiento para llegadas a LERS/LEDA vía MUREN:",
+    "options": [
+      "No atraviesan el VNI",
+      "VNI ↓ FLc XAL → XAL (FLc = nivel de vuelo coordinado)",
+      "VNI ↓ FL310 → XAL"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 329,
+    "question": "Qué sector de TMA nos transfiere un despegue de LEBL vía LARPA - MJV:",
+    "options": [
+      "T3 a FL190 (configuración W) o T2 a FL 190 (configuración E/N)",
+      "T2 a FL210 (configuración E) o T3 a FL 210 (configuración W)",
+      "El XAL a FL190"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 330,
+    "question": "Trabajando en el CCL, qué restricción de descenso debe cumplir un tráfico destino LEIB vía PUMAL y CORDA:",
+    "options": [
+      "FL330 en XEPLA",
+      "FL240 máximo en CORDA",
+      "Las dos anteriores son ciertas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 331,
+    "question": "MON532Q a FL 370 EGCC-LEPA vía IBRAP-LUKEV-LORES:",
+    "options": [
+      "CCL ↓ FL330 establecido en LUKEV, ↓FL200 →LECP",
+      "CCL ↓ FL350 establecido en LUKEV, ↓FL200 →LECP",
+      "CCU↓ FL330 establecido en LUKEV, ↓FL200 →LECP"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 332,
+    "question": "La frecuencia del CCU es:",
+    "options": [
+      "135.355 MHz",
+      "125.730 MHz",
+      "127.625 MHz"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 333,
+    "question": "Un cambio de nivel ECL,",
+    "options": [
+      "Puede sacar algún sector de la lista de sectores",
+      "Puede incluir algún sector de la lista de sectores",
+      "a) y b) son correctas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 334,
+    "question": "El procedimiento para llegadas a LEIB a FL400 vía VAKIN-BCN-CORDA:",
+    "options": [
+      "CCU ↓ FL340 → CCL",
+      "CCU ↓ FL330 → CCL",
+      "CCU ↓ FL320 → CCL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 335,
+    "question": "El procedimiento para llegadas a LEPA a FL400 vía MARIO-BCN-LORES:",
+    "options": [
+      "CCU ↓ FL340 → CCL",
+      "CCU ↓ FL330 → CCL",
+      "CCU ↓ FL320 → CCL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 336,
+    "question": "El procedimiento para llegadas a LEPA vía ALBER-GIR-LORES:",
+    "options": [
+      "CCU ↓ FL320 (establecido en GIR)→ CCL",
+      "CCU ↓ FL330 (establecido en GIR)→ CCL",
+      "CCU ↓ FL340 (establecido en GIR)→ CCL"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 337,
+    "question": "El procedimiento para llegadas a LEMH vía GIR, BGR:",
+    "options": [
+      "CCU ↓ FL310 (establecido en GIR,BGR)→ XAL",
+      "CCU ↓ FL300 (establecido en GIR,BGR)→ XAL",
+      "Las llegadas a LEMH son sobrevuelos para el CCU"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 338,
+    "question": "RYR8238 GMFF-LFMN a FL380 saliendo por DIBER:",
+    "options": [
+      "CCU ↓ FL320 → VNI",
+      "CCU ↓ FL340 → VNI",
+      "CCU ↓ FL310 → XAL"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 339,
+    "question": "AEA1065 a FL 360 LEMD-LIMC en la ruta PONEN...BCN…LUMAS:",
+    "options": [
+      "CCU → VNI",
+      "CCU → MNI",
+      "CCU → LFMM"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 340,
+    "question": "RYR9471 LIRP-LEMD a FL 370 en la ruta NILDU-BISBA-BGR-NENDA-BCN-…:",
+    "options": [
+      "CCU↓FL330 → CCL",
+      "Es un sobrevuelo para el CCU",
+      "El CCU debe introducir FL310 en el TFL ya que será su nivel en NEXAS"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 341,
+    "question": "El RFL aprobado para la transferencia con el colateral es:",
+    "options": [
+      "El asociado al penúltimo punto de la \" Ruta Gráfica\" o \" Trayectoria Planificada\"",
+      "El asociado al último punto de la \" Ruta Gráfica\" o \" Trayectoria Planificada\"",
+      "El que solicite el piloto"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 342,
+    "question": "En caso de carga SACTA:",
+    "options": [
+      "Trabajaremos sin fichas de progresión de vuelo",
+      "Las fichas de progresión de vuelo se seguirán imprimiendo como de costumbre",
+      "Se imprimirán por anticipado las fichas de progresión de vuelo"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 343,
+    "question": "En caso de que se vaya a proceder a una carga SACTA:",
+    "options": [
+      "Solo necesitan saberlo los supervisores",
+      "Todos los CTA deben saberlo, así como la hora de inicio",
+      "Se debe informar a todo el personal de RR.HH."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 344,
+    "question": "Cuando una aeronave requiera procedimiento de descenso continuo y aproximación (CDA), el controlador de ruta que reciba la petición:",
+    "options": [
+      "Informará al piloto de que no es posible atender su petición",
+      "Transferirá el tráfico a una frecuencia de aproximación",
+      "Coordinará con el controlador de aproximación antes de autorizar la STAR-CDA correspondiente"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 345,
+    "question": "Para equilibrar la secuencia de llegadas a LEPA, existe un procedimiento que permite el desvío de determinados tráficos de LUNIK a:",
+    "options": [
+      "KENAS",
+      "LORES",
+      "Las dos anteriores son ciertas"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 346,
+    "question": "Para un vuelo entrante en SACTA, el campo sector muestra:",
+    "options": [
+      "El sector al que se transferirá el tráfico",
+      "El sector que nos va a transferir el tráfico",
+      "El sector que tiene asumido el vuelo"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 347,
+    "question": "El procedimiento para llegadas a LEMH vía BCN-DIPES-SARGO es:",
+    "options": [
+      "CCU ↓ FL330 → CCL ↓ FLc XAL → XAL (FLc = nivel de vuelo coordinado)",
+      "CCU ↓ FL340 → CCL ↓ FL310 → XAL",
+      "CCU ↓ FL340 → CCL ↓ FLc XAL → XAL (FLc = nivel de vuelo coordinado)"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 348,
+    "question": "Por ISTER transferimos el tráfico a LFMM a la frecuencia:",
+    "options": [
+      "124,305",
+      "132,865",
+      "A y B son correctas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 349,
+    "question": "VLG3823 LEMD-LEMH FL 300:",
+    "options": [
+      "Sector BSL lo desciende a FL 250 y lo transfiere al sector MXX de LECP 120,700",
+      "Sector LGU coordina FL con LECP",
+      "Sector BSL lo desciende a FL 250 y lo transfiere al sector GXX de LECP 121,300"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 350,
+    "question": "Identifique la serie de sectores del núcleo de RUTA que atraviesa sucesivamente un tráfico destino DAON, vía VATIR – PIVUS - POS – MJV – LABRO a FL 250:",
+    "options": [
+      "CCC, VVS, LGU",
+      "VNI, BSL, LVS",
+      "XAL, VVI, LVS"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 351,
+    "question": "Las salidas de LEMH hacia MJV:",
+    "options": [
+      "LECP las transfiere al volumen VSL en ascenso a FL260",
+      "LECP transfiere el tráfico al sector LVS en ascenso a FL 240",
+      "LECP las transfiere al volumen VSL en ascenso a FL240 cruzando 15 NM antes de MJV a FL240"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 352,
+    "question": "Las llegadas a LEMH por PECES:",
+    "options": [
+      "Son transferidas por DAAA a ECL al volumen MSL/MSU, quien las desciende a FL250 y las transfiere a LECP",
+      "Son transferidos por DAAA a ECL al volumen MSL/MSU, quien coordina FL con MRX/MAX de LECP al no existir procedimiento",
+      "Son transferidas por DAAA directamente a LECP en descenso a FL250"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 353,
+    "question": "¿Cuál es el procedimiento a seguir ante una llegada a LERS por MUREN?",
+    "options": [
+      "El sector MNU/MNL lo recibe de LFMM a ECL e lo transfiere al VNI, quien coordina FL con el XAL",
+      "El sector MNL lo recibe de LFMM a FL290 máximo establecido en ELVOP y lo transfiere al XAL a FL coordinado",
+      "El sector MNU/MNL lo recibe de LFMM a ECL, lo desciende a FL290 y lo transfiere al XAL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 354,
+    "question": "¿Cuál es el procedimiento a seguir ante una llegada a LEDA por MUREN?",
+    "options": [
+      "El sector MNU/MNL lo recibe de LFMM a ECL e lo transfiere al VNI, quien coordina FL con el XAL",
+      "El sector MNL lo recibe de LFMM a FL290 máximo establecido en ELVOP y lo transfiere al XAL a FL coordinado",
+      "El sector MNU/MNL lo recibe de LFMM a ECL, lo desciende a FL290 y lo transfiere al XAL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 355,
+    "question": "Estamos trabajando en el sector MNL. El sector XAL nos transfiere un despegue de LEBL en ruta hacía LUMAS a RFL/ECL 300, ¿Qué hacemos?",
+    "options": [
+      "Lo transferimos a la frecuencia correcta 133,080",
+      "Libre de tráfico, y antes de llegar a LUMAS, lo transferimos a la frecuencia de LFMM 133,330",
+      "El sector XAL nunca nos transferirá dicho tráfico, pues según Carta de Acuerdo debe pasarlo directamente con LFMM"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 356,
+    "question": "MNL recibe tráficos en despegue de LEPA y de LEMH hacia LUMAS a FL's:",
+    "options": [
+      "260",
+      "260 y 240 respectivamente",
+      "240"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 357,
+    "question": "Es colateral del volumen MSL:",
+    "options": [
+      "VNI",
+      "MNL",
+      "DAAA sector W"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 358,
+    "question": "Un despegue de LERS con RFL 310 hacia DAAA, los recibe VSL del CCL a:",
+    "options": [
+      "FLc ( nivel coordinado) y los asciende a RFL para transferirlos a DAAA",
+      "FL250 y los asciende a RFL para transferirlos a DAAA",
+      "DEP de LERS a DAAA prohibidos por RAD"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 359,
+    "question": "Por OSPOK transferimos el tráfico a LFMM a la frecuencia:",
+    "options": [
+      "124,305",
+      "123,975",
+      "A y B son correctas"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 360,
+    "question": "Si estamos trabajando en el sector MNU:",
+    "options": [
+      "Recibimos el tráfico despegue de LEPA con ECL 345+ del MNL en ascenso a FL340 y lo subimos a RFL",
+      "En temporada de invierno recibimos el tráfico despegue de LEBL con ECL 345+ del MNL en ascenso a FL340 y lo subimos a RFL",
+      "A y B son correctas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 361,
+    "question": "LUMAS es utilizable por:",
+    "options": [
+      "Tráficos despegando de LEGE",
+      "Arribadas a LFM* y LFT* a cualquier FL",
+      "Despegues de LEMH a FL340 máximo entre el último AIRAC de Marzo y el último AIRAC de Octubre"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 362,
+    "question": "Un tráfico despegando de LEGE hacia OSPOK:",
+    "options": [
+      "El sector XAL lo sube a FL300 y lo transfiere al MNL",
+      "El MNL lo sube a FL340, en verano y lo transfiere a LFMM",
+      "Las respuestas anteriores son correctas"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 363,
+    "question": "Los despegues de LEBL hacía el Sur vía LARPA-MJV:",
+    "options": [
+      "Son transferidos por el sector CCL al VSL a FLc entre ambos sectores (FLc = nivel de vuelo coordinado)",
+      "El sector CCL los asciende a ECL",
+      "El sector CCL los asciende a FL250 y lo transfiere al VSL"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 364,
+    "question": "El punto MOGIL:",
+    "options": [
+      "Es utilizable por sobrevuelos en sentido Norte a cualquier FL",
+      "No está disponible para tráficos destino DAAG",
+      "Junto con SADAF se consideran un mismo punto y, por lo tanto, debemos establecer una secuencia única a la hora de transferir tráficos a DAAA"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 365,
+    "question": "El sector BAS iniciará coordinación de FL impar con LAG, para sobrevuelos vía LUXUR:",
+    "options": [
+      "Falso, el sector BAS cambiará de nivel al tráfico y lo pondrá a impar en el área de su responsabilidad.",
+      "Incorrecto, es LAG quien inicia la coordinación.",
+      "En ambos sentidos."
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 366,
+    "question": "Por Carta de Acuerdo LECB-LFMM, en el \"Release Área\" LFMM puede mover los tráficos:",
+    "options": [
+      "Verticalmente",
+      "Lateralmente",
+      "A y B son correctas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 367,
+    "question": "TFC DEP DAAG vía SADAF-IZA, DAAA lo transfiere en SADAF",
+    "options": [
+      "A RFL",
+      "Autorizado a FL300",
+      "Autorizado a FL280"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 368,
+    "question": "Una arribada a LEIB vía BCN, el sector CCC/CCL…:",
+    "options": [
+      "La baja a FL220 cruzando CORDA a FL240 o inferior",
+      "La baja a FL220 sin restricción",
+      "La baja a FL220 vía LORES"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 369,
+    "question": "Arribadas a LEPA vía MORSS:",
+    "options": [
+      "LFMM lo transfiere al sector MNL a FL 340 o inferior, éste lo desciende a FL 250 y lo transfiere a LECP.",
+      "LFMM lo transfiere al sector BAS, que lo desciende a FL 250 y lo transfiere a LECP.",
+      "MORSS no está disponible para llegadas a LEPA o LEMH."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 370,
+    "question": "El punto OTARO se sitúa:",
+    "options": [
+      "Al Norte de la aerovía UT 100.",
+      "Al sur de la aerovía UT 100.",
+      "En la aerovía UT 100."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 371,
+    "question": "Arribadas a LEMH vía PTC:",
+    "options": [
+      "BSL autoriza a FL250 e transferencia a LECP.",
+      "VSL autoriza a FL250 e transferencia a BAS.",
+      "LVS/LGU autoriza a FL250 e transferencia a LECP (MXX)."
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 372,
+    "question": "Por LoA LFMM/LECB, las entradas por SORAS:",
+    "options": [
+      "SORAS es un punto de salida del FIR exclusivamente en espacio aéreo inferior.",
+      "Sólo para tráficos con destino LEPA.",
+      "No disponible para tráficos destino LEPA."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 373,
+    "question": "Las arribadas a LEIB por MHN-MJV, el sector BAS las desciende a:",
+    "options": [
+      "FL210",
+      "FL250",
+      "FL290"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 374,
+    "question": "El procedimiento para los DEP’s de LEPA con ruta MHN-LUMAS procediendo DCT MEROS y RFL260 es:",
+    "options": [
+      "VVS coordina con MMS.",
+      "LECP transfiere el tráfico al sector MNL sin coordinación.",
+      "LECP coordina con MMS."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 375,
+    "question": "Una arribada a LEVC vía CDP-EPAMA a FL350, el sector BSU/VSU",
+    "options": [
+      "Coordinará nivel de transferencia con el sector Levante que corresponda.",
+      "Transfiere el tráfico al BSL/VSL para que este lo descienda a FL310 y lo pase con GTL.",
+      "La tratará como un sobrevuelo"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 376,
+    "question": "TFC's transferidos a LFMM antes de LUMAS y \"libres para viraje\", LFMM podrá aplicar virajes a estas aeronaves",
+    "options": [
+      "Solamente podrá autorizar virajes previa coordinación con LECB",
+      "Si, siempre que no excedan de 45º",
+      "Se podrán autorizar virajes siempre que las aeronaves no crucen otras aerovías de control"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 377,
+    "question": "DEP LEMH vía OKABI RFL 360. LECP lo transfiere a VSL quien:",
+    "options": [
+      "Lo asciende a FL270 e lo transfiere a GO1.",
+      "Lo asciende a 340 e lo transfiere a GO1.",
+      "Lo asciende a 340 e lo transfiere a VSU quien lo sube a FL360 ya que es su RFL, y este lo transfiere al GO2."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 378,
+    "question": "Tráficos destino LEGE por MUREN son transferidos por LFMM a LECB.",
+    "options": [
+      "Establecido a FL310 antes de MUREN",
+      "en descenso a FL'c coordinado con el sector MNI",
+      "a FL290 establecido en ELVOP"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 379,
+    "question": "Cual es el límite inferior mas bajo del sector VNI",
+    "options": [
+      "FL305",
+      "FL245",
+      "FL195"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 380,
+    "question": "TFC´s DEST LEPA VIA KENAS-LUNIK son descendidos a FL200 y transferidos a LECP sector",
+    "options": [
+      "L2X",
+      "L1X",
+      "MMX"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 381,
+    "question": "¿Cuál de las siguientes asociaciones de frecuencias es la correcta?:",
+    "options": [
+      "CCL 125,730 MNL 132,655",
+      "GO2 126,650 VSL 133,080",
+      "MNU 126,985 GO1 134,680"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 382,
+    "question": "Las entradas por MOGIL en sentido norte:",
+    "options": [
+      "No están permitidas",
+      "No tienen restricción",
+      "Sólo se permiten para destinos LEPA a FL 280-"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 383,
+    "question": "Las entradas de LFMM por ISTER y MORSS se consideran secuencia única:",
+    "options": [
+      "CORRECTO",
+      "FALSO.",
+      "Depende del FL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 384,
+    "question": "Un despegue de LEVC por EBROX- BCN-LUMAS y RFL360, el sector GO1",
+    "options": [
+      "lo sube a FL340 y lo pasa con el CCU",
+      "si es invierno y sube con buen ROC, lo sube a RFL coordinando con el CCU",
+      "si sube mal porque es verano, lo sube a FL320 cambiando su TFL y lo pasa con el CCL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 385,
+    "question": "El sector IXX de LECP, con frecuencia 127,625:",
+    "options": [
+      "Gestiona las entradas a LEVC por IZA",
+      "Gestiona las entradas a LEPA por MOGIL y SADAF",
+      "Las dos anteriores son correctas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 386,
+    "question": "Según la LoA LECB/DAAA, si tenemos dos vuelos con destino DAAG, debemos transferirlos:",
+    "options": [
+      "Vía MOGIL y el precedente a FL inferior del que le sigue.",
+      "Vía BUYAH y el precedente a FL inferior del que le sigue.",
+      "El precedente vía BUYAH y el subsiguiente vía MOGIL."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 387,
+    "question": "Cuando se entra en contacto radar con un tráfico procedente de DAAA:",
+    "options": [
+      "Creamos un nuevo código SSR.",
+      "Debemos prestar atención al sistema SACTA que asignará un nuevo código SSR",
+      "El código SSR viene asignado previamente."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 388,
+    "question": "BSL/BSU debe pasar las estimadas a DAAA",
+    "options": [
+      "Las estimadas a DAAA se envían automáticamente por sistema OLDI",
+      "Entre 10 min y 20min antes de la llegada al TCP",
+      "Entre 10 min y 30 min antes de la llegada al TCP"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 389,
+    "question": "LECB es la dependencia responsable de separar un dep de LEIB vía KABRE-ELTAN y otro dep LEMH vía NEVIC- MJV",
+    "options": [
+      "VERDADERO",
+      "FALSO",
+      "Se coordinará con LECP."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 390,
+    "question": "Por LoA LECB-LFMM transferimos por LUMAS dos TFCs al mismo nivel:",
+    "options": [
+      "Con 10 NM constantes o crecientes, sin coordinación previa",
+      "Con 8NM sin coordinación previa cuando tengamos que separar los tráficos por su estela",
+      "Con 10 NM constantes o decrecientes, sin coordinación previa"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 391,
+    "question": "Según LoA LECB-DAAA, transferimos TFC por BUYAH:",
+    "options": [
+      "A niveles pares, TFC destino DAAG por debajo de un sobrevuelo.",
+      "A niveles impares, todos a RFL independientemente de su destino.",
+      "A niveles impares, TFC destino DAAG transferirlo por debajo de sobrevuelos."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 392,
+    "question": "Despegue de LEIB vía KABRE - ELTAN - MHN - LUMAS. ¿A qué FL nos lo transfiere LECP?:",
+    "options": [
+      "FL280.",
+      "FL240.",
+      "FL260."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 393,
+    "question": "Por LoA LFMM/LECB, el tráfico destino LEBL/LEGE vía MUREN-VERSO:",
+    "options": [
+      "FL 290 máximo, establecido en MUREN.",
+      "FL 290 máximo, establecido en CHELY.",
+      "FL 290 máximo, establecido en ELVOP."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 394,
+    "question": "El tráfico destino LEIB vía MORSS – MJV tiene por procedimiento:",
+    "options": [
+      "MNI lo desciende a FL 210 sin restricción.",
+      "VSL lo desciende a FL 210 cruzando MJV a FL 240+.",
+      "VSL lo desciende a FL 250."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 395,
+    "question": "Ningún tráfico despegando de LEMH puede sobrevolar VERSO",
+    "options": [
+      "VERDADERO",
+      "Sólo si su destino es LEGE",
+      "sólo si su destino es LEBL"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 396,
+    "question": "El tráfico RYR2122, un BA46 LEMH-LFPO, vía MJV-ADX-GALAT-VNV-OKABI con RFL 260. ¿A qué volumen de LECB y FL deberá LECP transferir dicho tráfico?:",
+    "options": [
+      "Al VSL en ascenso a FL 240, quien lo asciende a RFL transfiriéndolo al sector GO1.",
+      "Al GO1 en ascenso a FL 260, quien lo transfiere cuando corresponda al sector DDS.",
+      "Al VSL en ascenso a FL 240, quien lo asciende a RFL transfiriéndolo al sector DDS."
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 397,
+    "question": "En la \"Release Area\" Marsella ACC puede",
+    "options": [
+      "Subir tráficos previa coordinación con LECB",
+      "Virar y subir tráficos libremente sin coordinación con LECB",
+      "Solo subir tráficos sin coordinación con LECB"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 398,
+    "question": "La frecuencia del MSU es:",
+    "options": [
+      "135,555 MHZ.",
+      "132,355 MHZ.",
+      "135,355 MHZ."
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 399,
+    "question": "El sector MNL bajará los tráficos vía LAPIT-LUMAS destino LFM... LFT... a:",
+    "options": [
+      "FL 300 e lo transferirá al sector XAL.",
+      "FL 320.",
+      "FL300."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 400,
+    "question": "Los sobrevuelos vía LAPIT-LUMAS destino LFM... LFT... el sector MNU lo bajará a FL:",
+    "options": [
+      "Estos sobrevuelos no entran en el sector MNU.",
+      "FL 330 e lo transfiere a MNL.",
+      "FL 350 e lo transfiere al MNL."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 401,
+    "question": "Tráfico entrando por LUXUR a FL280:",
+    "options": [
+      "VSL coordina FL impar con LVS.",
+      "El nivel par mínimo utilizable por LUXUR es FL300, no se acepta tráfico a FL280.",
+      "BSL lo recibe a FL280 e lo cambia a FL impar."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 402,
+    "question": "En el caso de un despegue de LEPA vía MHN-MEROS-LUMAS, LECP podrá:",
+    "options": [
+      "Autorizar el tránsito directo a MEROS coordinando con MNL.",
+      "Autorizar el tránsito directo a MEROS sin coordinación, aunque en temporada estival, se evitarán los DCTs sucesivos sin coordinar",
+      "Nunca podrá autorizar el tránsito directo a MEROS."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 403,
+    "question": "Un tráfico despega de LEMH el 20 de noviembre con destino EDDF, y nos solicita FL360 con ruta MEROS-CHELY-LUMAS-SOSUR, en el sector MMI:",
+    "options": [
+      "Como su destino no es LI.... le autorizaremos a FL320 máximo.",
+      "Le autorizaremos a FL360 si el tráfico lo permite.",
+      "Podemos autorizarle a FL340 máximo."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 404,
+    "question": "El volumen VSL transferirá los sobrevuelos que tenga a FL250 con ruta CDP-EPAMA-VLC cuando los tres levantes están separados a:",
+    "options": [
+      "LECP.",
+      "LVL.",
+      "LVS."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 405,
+    "question": "En los despegues de LEIB vía KABRE, el volumen VSL recibe el tráfico de LECP:",
+    "options": [
+      "En ascenso a FL 240.",
+      "En ascenso a FL 280.",
+      "En ascenso a FL 260."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 406,
+    "question": "Arribadas a LEMH por PECES, el MSL:",
+    "options": [
+      "No están permitidas",
+      "Las recibe de DAAA a FLc ( nivel coordinado)",
+      "Al no haber procedimiento, se coordina nivel (FLc) con el sector MRX o MAX de LECP, según corresponda por nivel"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 407,
+    "question": "SADAF, BUYAH, MOGIL y LUXUR",
+    "options": [
+      "Pertenecen al sector Este de DAAA",
+      "Su frecuencia es 125,700",
+      "Las dos anteriores son incorrectas"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 408,
+    "question": "Los siguientes puntos de notificación obligatoria pertenecen a la aerovía UT100",
+    "options": [
+      "XESPA, MAMOM, SOTAX",
+      "PIMAD y XESPA",
+      "Las dos anteriores son incorrectas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 409,
+    "question": "ANE8554 trayecto LEMH- LEBB, RFL 380, el VSL",
+    "options": [
+      "Lo asciende a FL340 e lo transfiere, libre de su tráfico, al GO1",
+      "Lo asciende FL310, máximo permitido por Ops LECB ya que su nivel de transferencia con LECM es FL310",
+      "Lo asciende a FL340 e lo transfiere, libre de su tráfico, al VSU quien lo subirá a RFL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 410,
+    "question": "El responsable de separar las arribadas de LEIB de las salidas de LEMH vía MJV:",
+    "options": [
+      "Los separa el sector VVS",
+      "Los separa LECP",
+      "Depende del caso concreto"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 411,
+    "question": "Los despegues de LEGE por LUMAS:",
+    "options": [
+      "Se pueden ascender hasta FL300",
+      "Se pueden ascender hasta FL340",
+      "LUMAS no está permitido para los despegues de LEGE"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 412,
+    "question": "Los despegues de LEBL y LEMH vía LUMAS se limitan a FL320 máximo",
+    "options": [
+      "VERDADERO",
+      "FALSO",
+      "Sólo entre el último AIRAC de Marzo y el último AIRAC de Octubre"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 413,
+    "question": "Por LoA con LFMM los despegues de LERS y LEDA vía LUMAS:",
+    "options": [
+      "FL 300 máximo",
+      "FL 320 máximo entre el último AIRAC de Marzo y el último de Octubre.",
+      "FL 340 máximo entre el último AIRAC de Marzo y el último de Octubre."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 414,
+    "question": "Las frecuencias del Sector BSL (MSL+VSL)son:",
+    "options": [
+      "134,455 y 135,215",
+      "131,380 y 135,555",
+      "131,380 y 135,215"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 415,
+    "question": "Por Carta de Acuerdo con DAAA, los tráficos por PECES en sentido sur:",
+    "options": [
+      "No se admiten",
+      "FL110 máximo",
+      "FL195 máximo"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 416,
+    "question": "IBE 3432, LEMH-LEMD, es ascendido a FL310 por VSL e lo transfiere a la siguiente frecuencia:",
+    "options": [
+      "126.650",
+      "129.530",
+      "Depende de la sectorización de los levantes"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 417,
+    "question": "Los despegues de LEBL a DAAA, los recibe VSL del CCL a FL250 y :",
+    "options": [
+      "Los asciende a FL 330 y libre de su tráfico, lo transfiere al VSU, si su RFL es superior a FL330",
+      "FALSO",
+      "RFL máximo FL330 para que no entre en el volumen VSU"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 418,
+    "question": "Despegues de LEMH por LABRO/SADAF, el volumen VSL los recibe de LEPA a FL240 y los asciende a:",
+    "options": [
+      "Los asciende a FL 330 y libre de su tráfico, lo transfiere al VSU, si su RFL es superior a FL330",
+      "RFL máximo FL330 para que no entre en el volumen VSU",
+      "Nivel coordinado con LAG"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 419,
+    "question": "Tráficos destino LECH por CDP- EPAMA:",
+    "options": [
+      "VSL lo desciende a FL310 establecido en su sector, y lo trasfiere a GTL",
+      "VSL lo trata como un sobrevuelo e lo transfiere al sector levante que toque según configuración",
+      "Las dos anteriores son incorrectas"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 420,
+    "question": "Las arribadas a LEIB vía SADAF, el volumen VSL:",
+    "options": [
+      "Las desciende a FLc (nivel coordinado) con LAG y las transfiere a 126,650",
+      "Las desciende a FL 250 y las transfiere a 118,125",
+      "Para VVS son sobrevuelos"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 421,
+    "question": "Las arribadas a LEPA vía LABRO con RFL 360 las desciende el LAG/LVS a FL 250 e las transfiere a LECP",
+    "options": [
+      "VERDADERO",
+      "FALSO",
+      "LAG/LVS las desciende a FL250 e las transfiere a FLc a VVS"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 422,
+    "question": "Sale un despegue de LEPA con ruta MEBUT-SURIB-SADAF a FL110. Mandarlo directo de MEBUT a SADAF…",
+    "options": [
+      "No debería hacerse porque a ese nivel estaría fuera de aerovía, o sea, en espacio aéreo no controlado",
+      "Se haría sólo si es para evitar un fenómeno meteorológico, en caso de emergencia o si lo pide el piloto",
+      "Las respuestas anteriores son correctas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 423,
+    "question": "¿Qué dependencia colateral tiene el sector BALSE por debajo de su límite vertical inferior?",
+    "options": [
+      "Valencia TACC",
+      "LECP",
+      "Valencia TACC y LECP"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 424,
+    "question": "Un tráfico procedente de DAAA y destino LEPA vía MOGIL a FL280, el sector BSL:",
+    "options": [
+      "El sector BSL transfiere el tráfico a LECP en descenso a FL 250.",
+      "DAAA transfiere directamente el tráfico a LECP a FL250 o inferior.",
+      "El sector BSL transfiere el tráfico a LECP en descenso al FL coordinado."
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 425,
+    "question": "Los sobrevuelos SOTAX-CDP y PTC-SOTAX:",
+    "options": [
+      "Permitidos solo a tráfico militar",
+      "No tienen restricciones",
+      "Se permiten previa coordinación CAO"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 426,
+    "question": "¿Qué debe hacer el controlador si un vuelo CAO comunica en su frecuencia?",
+    "options": [
+      "Decirle que comunique con la frecuencia anterior",
+      "Darle prioridad",
+      "Ponerlo en conocimiento del supervisor"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 427,
+    "question": "Qué volúmenes atraviesa un tráfico destino DAAG, vía PUMAL – BCN – MJV – BUYAH a FL 270:",
+    "options": [
+      "XAL, CCL, VSL",
+      "XAL, CCL, VNI, VSL",
+      "XAL, VVI"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 428,
+    "question": "Arribadas a LEPA vía VATIR FL 370 (VATIR/PIVUS):",
+    "options": [
+      "LFBB lo transfiere a CCU FL 370",
+      "LFMM lo transfiere a CCU FL 370",
+      "LFMM lo transfiere a VNI FL 370"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 429,
+    "question": "La aerovía UN727 (GEANT):",
+    "options": [
+      "Es de uso exclusivo para arribadas a TMA LECB y LEPA a FL195-",
+      "Es de uso exclusivo para arribadas a LEGE",
+      "Es de uso exclusivo para tráfico destino LEMH/LESL"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 430,
+    "question": "Tráfico LEAS-LEIB vía MARIO-BCN-CORDA a FL320:",
+    "options": [
+      "El sector XAL recibe el tráfico del sector GO1 e lo transfiere a LECP en descenso a FL 220 sin ninguna restricción en su descenso",
+      "El sector CCL recibe el tráfico del sector GO1 e lo transfiere a LECP a FL 220 cruzando CORDA a FL 240 o inferior",
+      "El sector CCC recibe el tráfico del sector GO1 e lo transfiere a LECP a FL 220 sin ninguna restricción en su descenso"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 431,
+    "question": "En secuencia de arribadas, tránsitos sucesivos sin la separación longitudinal reglamentaria, vía LUNIK, y destino LEPA, serán autorizados por LECB a:",
+    "options": [
+      "FL240 o inferior, libre del precedente, introduciendo el valor del nuevo TFL en SACTA",
+      "FL200",
+      "Se coordinará FL con LECP"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 432,
+    "question": "¿Cuál es la frecuencia asociada al volumen MSL?",
+    "options": [
+      "131,38",
+      "135,215",
+      "135,555"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 433,
+    "question": "Una arribada a LEIB entrando por VATIR vía POS-MJV el VNI:",
+    "options": [
+      "Bajará a FL310 establecido en DIMIB e lo transferirá a 131,380",
+      "Bajará a FL 220 e cruzará POS a FL 240 o inferior",
+      "Es un sobrevuelo para el VNI"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 434,
+    "question": "Qué sector transfiere a LFMM las salidas de LEMH por LUMAS con RFL360?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 435,
+    "question": "¿Qué situaciones habrá que notificar al supervisor con carácter urgente?",
+    "options": [
+      "Desvío significativo del plan de vuelo autorizado",
+      "Interrupción de las comunicaciones radio",
+      "Las dos anteriores son correctas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 436,
+    "question": "La aerovía UN855 (KANIG):",
+    "options": [
+      "No está disponible para tráfico destino LEIB",
+      "No está disponible para tráfico destino LEMH",
+      "No está disponible para tráfico destino LEPA"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 437,
+    "question": "Con 3 sectores LEVANTE abiertos, el procedimiento que se debe aplicar a los tráficos de entrada por LUXUR vía IZA-VLC con ECL380 es:",
+    "options": [
+      "VSL/VSU transfiere al sector LVS el tráfico a ECL y el sector LVS adecúa el FL del tráfico a FL impar.",
+      "VSL/VSU adecúa el FL del tráfico a FL impar en el área de su responsabilidad en ambos sentidos.",
+      "VSL/VSU transfiere al sector LVS el tráfico al nivel coordinado entre ambos sectores."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 438,
+    "question": "Qué tiene que hacer el sector MNL con las arribadas a LFHO por BCN->LUMAS?",
+    "options": [
+      "Transferirlas a LFMM a FL300 o ECL si es inferior",
+      "Transferirlas al XAL a FL300 o ECL si es inferior",
+      "Esa ruta no está disponible para ARR LFHO"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 439,
+    "question": "Qué tiene que hacer el sector MNL con las arribadas a LFHO por CHELY->LUMAS?",
+    "options": [
+      "Transferirlas a LFMM a FL300 o ECL si es inferior",
+      "Transferirlas al XAL a FL300 o ECL si es inferior",
+      "Esa ruta no está disponible para ARR LFHO"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 440,
+    "question": "Qué tiene que hacer el sector MNU con las arribadas a LFHO por CHELY->LUMAS?",
+    "options": [
+      "Transferirlas a LFMM a FL300 o ECL si es inferior",
+      "Transferirlas al MNL a FL350",
+      "Transferirlas al MNL a FL330"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 441,
+    "question": "Qué sector transfiere al VNI las arribadas a LERS por MUREN con ECL350?",
+    "options": [
+      "MNL",
+      "MNU",
+      "Las dos respuestas anteriores son correctas"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 442,
+    "question": "Qué sector transfiere al VNI las arribadas a LEDA por MUREN con ECL350?",
+    "options": [
+      "MNL",
+      "MNU",
+      "Las dos respuestas anteriores son correctas"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 443,
+    "question": "ISTER y MORSS son puntos pertenecientes al mismo sector de LFMM:",
+    "options": [
+      "CIERTO.",
+      "FALSO.",
+      "Depende de la sectorización."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 444,
+    "question": "Los despegues de LEMH vía MJV - DRAGO/GALAT, ¿tienen alguna restricción en GALAT o DRAGO?",
+    "options": [
+      "FL 280",
+      "FL345-",
+      "No"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 445,
+    "question": "La frecuencia del sector VNI es:",
+    "options": [
+      "133,080 MHz",
+      "134,985 MHz",
+      "135,355 MHz"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 446,
+    "question": "Un tráfico procedente de LEBL/LEGE, que sale por OSPOK, será transferido a LFMM:",
+    "options": [
+      "Si procede de LEBL FL340 máximo, si procede de LEGE FL320 máximo, en verano.",
+      "A FL340 en ambos casos.",
+      "Si procede de LEBL FL320 máximo, si procede de LEGE FL300 máximo, en verano."
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 447,
+    "question": "Los tránsitos destino LEPA vía KENAS/LUNIK se considerarán como un único flujo:",
+    "options": [
+      "VERDADERO",
+      "FALSO, el tráfico destino LEPA no puede proceder por KENAS",
+      "FALSO, LECP será responsable de la separación"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 448,
+    "question": "¿A qué sector y frecuencia transferirá el CCL las arribadas a LEIB vía CORDA?",
+    "options": [
+      "L1X 119.155",
+      "L2X 119.405",
+      "GXX 121.300"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 449,
+    "question": "Según el Manual Operativo de LECB, un despegue de LEVC vía GODOX–PTC es transferido por el GTL al VSL a:",
+    "options": [
+      "FL 240.",
+      "FL 300 máximo.",
+      "FL 320 máximo."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 450,
+    "question": "Según LoA entre LECB y LFMM, un tráfico con origen LEVC y destino EDDF a FL 380, podrá ser transferido a LFMM:",
+    "options": [
+      "A FL 300 máximo si sale por DIBER.",
+      "A FL 380, pero deberá ser transferido por LUMAS.",
+      "A FL 380 independientemente de que el punto de salida sea DIBER o LUMAS."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 451,
+    "question": "Las arribadas a LEMH vía VATIR-PIVUS-VERSO-TOSNU-SARGO a FL 350 son descendidas por el VNI:",
+    "options": [
+      "Esa ruta está prohibida para arribadas a LEMH.",
+      "A FL 310 e transferidas a XAL.",
+      "A FL 250 e transferidas a XAL."
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 452,
+    "question": "Una arribada a LEPA por MAMES-BGR-NENDA-LORES…",
+    "options": [
+      "El CCU la baja a FL 340 establecida en BGR y se la pasa al CCL",
+      "El CCU la baja a FL 330 establecida en NENDA y se la pasa al CCL",
+      "Este tráfico entra por el VNI destino LEPA vía LUNIK"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 453,
+    "question": "DEP LEMH vía MJV-GALAT/DRAGO, RFL 340. LECP lo transfiere a VSL quien:",
+    "options": [
+      "↑FL340 y lo transfiere a VSU",
+      "↑FL340 y lo transfiere a GO1",
+      "↑FL340 y lo transfiere a GO2"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 454,
+    "question": "Por LoA LECB/DAAA el tráfico de LECB a DAAA será transferido a:",
+    "options": [
+      "Niveles pares por todos los puntos de transferencia",
+      "Niveles impares por todos los puntos de transferencia",
+      "Niveles pares excepto el tráfico por LUXUR, que será transferido a niveles impares"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 455,
+    "question": "DEP´s LEMH vía MJV->RESTU a RFL 350. LECP lo transfiere a VSL quien:",
+    "options": [
+      "↑FL330 y lo transfiere a VSU",
+      "↑FL330 y lo transfiere a LVS",
+      "↑ FL340 y lo transfiere a VSU"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 456,
+    "question": "El TCX 243 es un B738, EGBB-LEIB, entra a FL390 vía PUMAL. El sector CCL transfiere este tráfico a LECP:",
+    "options": [
+      "En descenso a FL 220 cruzando CORDA a FL 240-",
+      "En descenso a FL190.",
+      "En descenso a FL 220 sin restricciones en CORDA"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 457,
+    "question": "Por LoA LFMM/LECB, se establece que sobre DIBER:",
+    "options": [
+      "Dep’s LEBL/LERS , FL 300 máximo.",
+      "Sobrevuelos destino grupo Niza, FL 340 o inferior.",
+      "Todas son correctas."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 458,
+    "question": "DEP’s de LEMH vía MJV-ADX-GALAT/DRAGO y RFL 360:",
+    "options": [
+      "LECP autoriza a FL240 transferencia al VSL que lo autoriza a FL300 y transferencia a GO1",
+      "LECP autoriza a FL240 transferencia al GO1 que lo autoriza a FL340 y transferencia a GO2",
+      "LECP autoriza a FL240 transferencia al VSL que lo autoriza a FL340 y transferencia a GO1"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 459,
+    "question": "Las frecuencias del Sector LVL y DDS son, respectivamente:",
+    "options": [
+      "129,530 MHz y 132,580 MHz",
+      "120,535 MHz y 135,805 MHz",
+      "126,855 MHz y 134,680 MHz"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 460,
+    "question": "¿Cuál de las siguientes asociaciones es la correcta?:",
+    "options": [
+      "VNI 133,080 MNL 132,655",
+      "VSL 134,455 VNI 133,080",
+      "MNU 132,655 MSU 135,555"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 461,
+    "question": "¿A qué sector y frecuencia transferirá el CCL las arribadas a LEPA vía LORES?",
+    "options": [
+      "L1X 119.155",
+      "L2X 119.405",
+      "GXX 121.300"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 462,
+    "question": "¿Qué dependencia asume la separación de tráficos que convergen en las rutas PPG-BGR y MAMES/NILDU-BGR?",
+    "options": [
+      "LECB, porque puede recibir tráfico de LFMM y LFBB por dichos puntos",
+      "LFMM, porque es el único que pasa tráficos",
+      "LFBB, porque es el único que pasa tráficos"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 463,
+    "question": "Qué sector transfiere a LFMM las salidas de LEDA por LUMAS con RFL360?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 464,
+    "question": "Un despegue de LEBL destino LEPA, el sector CCL:",
+    "options": [
+      "Coordina con LECP",
+      "Este tráfico no es del sector CCL, se transfiere desde el TMA de LECB al TMA de LECP",
+      "Recibe el tráfico del TMA en ascenso a FL190,↑FL210 y lo transfiere a LECP"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 465,
+    "question": "Sobrevuelos por LUXUR en ambos sentidos, entre BSL/BSU y LAG",
+    "options": [
+      "No se coordina FL entre VVS y LAG.",
+      "BSL/BSU será el responsable de cambiar el nivel de PAR a IMPAR en su área de responsabilidad en ambos sentidos.",
+      "Se quedan a FL PAR"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 466,
+    "question": "Una DEP de LEIB vía KABRE a LUMAS que tiene RFL340, el sector BAS",
+    "options": [
+      "Lo asciende a RFL e lo transfiere a MNU 134,985",
+      "Lo asciende a RFL e lo transfiere a MNL 132,655",
+      "Lo asciende a FL320 máximo e lo transfiere a MNL 132,655"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 467,
+    "question": "Una DEP de LEMH vía MJV a RESTU con RFL 370 el sector BSL",
+    "options": [
+      "Lo asciende FL 330 máximo e lo transfiere a LAG quien lo subirá a RFL.",
+      "Lo asciende FL 330 e, libre de su tráfico, lo transfiere al sector BSU, quien lo subirá a FL370 e lo transfiere a LAG.",
+      "Lo asciende a RFL e lo transfiere a LAG"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 468,
+    "question": "El MNU ascenderá a RFL los tráficos DEP LEMH por LUMAS con RFL superior a FL340",
+    "options": [
+      "Se quedan siempre a FL 320 Máximo con el MNL",
+      "Sólo en invierno , desde el último AIRAC de Marzo al último AIRAC de Octubre sólo se podrán subir a FL340 máximo",
+      "Sólo en verano, desde el último AIRAC de Octubre al último AIRAC de Marzo sólo se podrán subir a FL320 máximo"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 469,
+    "question": "El sector BSL/BSU puede recibir tráfico de DAAA por los siguientes puntos",
+    "options": [
+      "SADAF,BUYAH,PECES",
+      "SADAF, MOGIL(sólo DEST LEPA FL280- a FL pares), LUXUR (FL300+ , FL pares),PECES",
+      "BUYAH,MOGIL (FL300-, FL pares),PECES"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 470,
+    "question": "Las frecuencias del VNI y del VSU son",
+    "options": [
+      "133,085 y 134,450",
+      "133,080 y 134,455",
+      "133,080 y 134,435"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 471,
+    "question": "El MNI ascenderá a RFL los tráficos DEP LEBL por LUMAS con RFL superior a FL340",
+    "options": [
+      "Sólo en invierno , desde el último AIRAC de Marzo al último AIRAC de Octubre sólo se podrán subir FL340 máximo",
+      "Todo el año",
+      "Los ascenderá a FL320 máximo"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 472,
+    "question": "La aerovía UT100 en sentido Este y Oeste",
+    "options": [
+      "Está permitida sólo para tráfico militar",
+      "Sin restricciones",
+      "Solo para tráfico a FL320 o superior"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 473,
+    "question": "Qué sector transfiere a LFMM las salidas de LEPA por LUMAS con RFL380?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 474,
+    "question": "Según LoA con LFMM los tráficos entrando por ISTER y MORSS desde LFMM ,que convergen en MHN, los separa LFMM",
+    "options": [
+      "FALSO",
+      "VERDADERO",
+      "Estos tráficos los separa LECB"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 475,
+    "question": "Quién transfiere a LECP las arribadas a LEPA por SADAF?",
+    "options": [
+      "LVS/LAG/LLI",
+      "Depende de si estamos en temporada de invierno o de verano",
+      "BSL/VVI/VSL"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 476,
+    "question": "Según LoA LECB-LECP",
+    "options": [
+      "El volumen VSL de LECB proveerá separación entre ARR´s a LEIB y DEP´s de LEMH vía MJV",
+      "LECP proveerá separación entre ARR´s a LEIB y DEP´s de LEMH vía MJV",
+      "La responsabilidad dependerá del caso concreto y de si el cruce se produce en el espacio aéreo de LECB o de LECP"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 477,
+    "question": "Las entradas por MUREN destino LERS/LEDA el VNI las recibe del MNU/MNL a ECL e los desciende a FL coordinado con el XAL",
+    "options": [
+      "VERDADERO",
+      "FALSO.",
+      "El VNI lo desciende a FL310 e lo transfiere con el XAL sin coordinar"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 478,
+    "question": "Los Supervisores de LECP y LECB coordinarán tácticamente los reencaminamientos necesarios y posibles (según la situación de los sectores de LECB y LECP) entre LORES y KENAS/LUNIK.",
+    "options": [
+      "VERDADERO",
+      "FALSO.",
+      "Se podrá reencaminar sin coordinación con LECP"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 479,
+    "question": "Cual es el punto de entrada para tráficos DEP DAAG destino LEPA",
+    "options": [
+      "SADAF",
+      "MOGIL FL280 o inferior",
+      "A y B son correctas"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 480,
+    "question": "A que nivel recibe el volumen VSL los TFC's DEP LEVC/LECH vía GODOX",
+    "options": [
+      "de GTL a FL320",
+      "de GTL a FL340",
+      "de LGU a FL320"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 481,
+    "question": "Qué pares de frecuencias son correctas",
+    "options": [
+      "L1X 119,150 y GXX 121,300",
+      "XAL 133,020 y GO3 119,035",
+      "L2X 119,405 y VSL 131,380"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 482,
+    "question": "La frecuencias de MNL/MNU son:",
+    "options": [
+      "132.645 y 134.985.",
+      "132.675 y 134.980",
+      "132.655 y 134.985."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 483,
+    "question": "VSL/BSL recibe las ARR a LEIB del VNI",
+    "options": [
+      "En descenso para FL310/KENAS o FL310/DIMIB",
+      "A ECL",
+      "En descenso para FL330"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 484,
+    "question": "Qué tiene que hacer el sector MNU con las arribadas a LEIB por SORAS?",
+    "options": [
+      "Transferirlas al VSL a ECL.",
+      "Transferirlas al VSL a FL330 establecidas en NOMTO.",
+      "Nada porque entran a FL330 directamente con el MNL desde LFMM."
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 485,
+    "question": "Qué sector transfiere a LFMM las salidas de LEBL por LUMAS con RFL360?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 486,
+    "question": "Qué sector transfiere a LFMM las salidas de LELL por LUMAS con RFL360?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 487,
+    "question": "Qué sector transfiere a LFMM las salidas de LERS por LUMAS con RFL360?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 488,
+    "question": "Qué sector transfiere a LFMM las salidas de LEGE por LUMAS con RFL340?",
+    "options": [
+      "LUMAS no está disponible para DEP LEGE",
+      "MNL",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 489,
+    "question": "Qué sector transfiere a LFMM las salidas de LEBL por OSPOK con RFL380?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 490,
+    "question": "Qué sector transfiere a LFMM las salidas de LELL por OSPOK con RFL380?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 491,
+    "question": "Qué sector transfiere a LFMM las salidas de LEDA por OSPOK con RFL360?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 492,
+    "question": "Un tráfico que entra por PECES a FL380 vía MHN, LUMAS con DEST LFMT",
+    "options": [
+      "El BSU lo transfiere a MNU que lo descenderá a FL350 e lo transfiere a MNL que lo desciende a FL300 e lo transfiere al sector F1 de LFMM",
+      "El BSU lo transfiere a MNU que lo transfiere al sector F4 de LFMM",
+      "El BSU lo transfiere a MNU que lo descenderá a FL330 e lo transfiere a MNL que lo desciende a FL300 e lo transfiere al sector F1 de LFMM"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 493,
+    "question": "Qué sector transfiere a LFMM las salidas de LEGE por OSPOK con RFL340?",
+    "options": [
+      "MNU en invierno y MNL en verano",
+      "MNU",
+      "MNL"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 494,
+    "question": "Un tráfico con destino LFMT vía MHN-LUMAS a FL320, el MNL si existe otro sobrevuelo a FL300 vía BCN-LUMAS",
+    "options": [
+      "Al tráfico destino LFMT le será asignado un nivel por encima del sobrevuelo, y se modificará el nivel OLDI",
+      "Sube el sobrevuelo a FL340",
+      "Al tráfico destino LFMT le será asignado un nivel por debajo del sobrevuelo, y se modificará el nivel OLDI"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 495,
+    "question": "Qué volumen transfiere a DAAA tráficos en sentido SUR por PECES?",
+    "options": [
+      "El MSL o el MSU",
+      "Sólo MSL",
+      "Ninguno, por PECES sólo se admiten tráficos en sentido NORTE"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 496,
+    "question": "Qué sector transfiere a LECP las arribadas a LEMH por GODOX?",
+    "options": [
+      "LVS/LAG/LLI",
+      "Depende de si estamos en temporada de invierno o de verano",
+      "BSL/VVI/VSL"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 497,
+    "question": "Qué sector transfiere a LECP las arribadas a LEPA por LABRO?",
+    "options": [
+      "LVS/LAG/LLI",
+      "Depende de si estamos en temporada de invierno o de verano",
+      "BSL/VVI/VSL"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 498,
+    "question": "Qué sector transfiere a LFMM las arribadas a LFMT por LUMAS?",
+    "options": [
+      "MNL",
+      "MNU",
+      "Las dos respuestas anteriores son correctas"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 499,
+    "question": "Qué tiene que hacer el VSU con las arribadas a LEVC por EPAMA con ECL370?",
+    "options": [
+      "Transferirlas a LVS/LAG/LLI a FL coordinado",
+      "Transferirlas a LVS/LAG/LLI a ECL",
+      "Transferirlas a VSL a FL350"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 500,
+    "question": "Qué tiene que hacer el volumen VSL con las arribadas a LEVC por SADAF/LUXUR->IZA con ECL330?",
+    "options": [
+      "Transferirlas a LVS/LAG/LLI a FL coordinado",
+      "Transferirlas a LVS/LAG/LLI a ECL",
+      "Transferirlas a LEPA a FL250, establecidas en IZA"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 501,
+    "question": "Que sector transfiere a LECP las arribadas a LECH por IZA?",
+    "options": [
+      "LVS/LAG/LLI",
+      "Depende de si estamos en temporada de invierno o de verano",
+      "BSL/VVI/VSL"
+    ],
+    "correct": 0,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 502,
+    "question": "Por LoA LFMM/LECB, tráfico por DIBER:",
+    "options": [
+      "Dep’s LECH , FL300 máximo.",
+      "Sobrevuelos BCN destinos LF.., FL300 máximo",
+      "Sobrevuelos destino grupo Niza, FL340 o inferior"
+    ],
+    "correct": 2,
+    "topic": "Manual ACC Barcelona Ruta E"
+  },
+  {
+    "id": 503,
+    "question": "Qué sector transfiere a LFMM las salidas de LERS por OSPOK con RFL360?",
+    "options": [
+      "MNL",
+      "MNU",
+      "MNU en invierno y MNL en verano"
+    ],
+    "correct": 1,
+    "topic": "Manual ACC Barcelona Ruta E"
   }
 ]
