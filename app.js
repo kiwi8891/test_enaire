@@ -130,6 +130,7 @@ function showMenu() {
 }
 
 async function showStats() {
+  if (!user) { showScreen('screen-login'); return; }
   await loadProgress(); // recarga fresca desde Supabase
 
   const total = allQuestions.length;
@@ -207,7 +208,12 @@ function startTest(mode) {
     pool = prioritizeUnseen([...allQuestions]);
   }
 
-  session = { questions: pool.slice(0, 20), current: 0, correct: 0, wrong: 0 };
+  const questions = pool.slice(0, 20);
+  if (questions.length === 0) {
+    alert('No hay preguntas disponibles en este bloque.');
+    return;
+  }
+  session = { questions, current: 0, correct: 0, wrong: 0 };
   showScreen('screen-test');
   renderQuestion();
 }
@@ -265,6 +271,7 @@ async function selectAnswer(index) {
 }
 
 async function updateProgress(questionId, isCorrect) {
+  if (!user) return;
   const p = userProgress[questionId] || { wrong_count: 0, correct_count: 0 };
   const updated = {
     user_id: user.id,
@@ -281,6 +288,7 @@ async function updateProgress(questionId, isCorrect) {
     .select().single();
 
   if (data) userProgress[questionId] = data; // reemplaza con respuesta del servidor (incluye id)
+  else console.error('updateProgress: Supabase upsert falló para', questionId);
 }
 
 function nextQuestion() {
