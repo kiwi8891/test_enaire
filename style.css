@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Instrument+Sans:wght@400;500;600&display=swap');
 
 :root {
+  --bg:             #f7f2f5;
   --bg:             oklch(96% 0.005 350);
+  --surface:        #fefefe;
   --surface:        oklch(98% 0 0);
+  --text-primary:   #151515;
   --text-primary:   oklch(10% 0 0);
+  --text-secondary: #3a3a3a;
   --text-secondary: oklch(25% 0 0);
+  --text-meta:      #888888;
   --text-meta:      oklch(55% 0 0);
+  --border:         #e8e8e8;
   --border:         oklch(92% 0 0);
+  --accent:         #c0287a;
   --accent:         oklch(60% 0.25 350);
+  --accent-deep:    #a01f65;
   --accent-deep:    oklch(52% 0.25 350);
+  --accent-whisper: rgba(192, 40, 122, 0.12);
   --accent-whisper: oklch(60% 0.25 350 / 0.12);
   --ease-out:       cubic-bezier(0.16, 1, 0.3, 1);
 }

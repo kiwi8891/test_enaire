@@ -4,32 +4,37 @@ let lastMode = 'all';
 let pendingEmail = '';
 
 async function init() {
-  if (!SUPABASE_URL || SUPABASE_URL.includes('YOUR_PROJECT')) {
-    showScreen('screen-setup');
-    return;
-  }
+  try {
+    if (!SUPABASE_URL || SUPABASE_URL.includes('YOUR_PROJECT')) {
+      showScreen('screen-setup');
+      return;
+    }
 
-  sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-  sb.auth.onAuthStateChange(async (event, authSession) => {
-    if (event === 'SIGNED_IN' && authSession) {
+    sb.auth.onAuthStateChange(async (event, authSession) => {
+      if (event === 'SIGNED_IN' && authSession) {
+        user = authSession.user;
+        await loadData();
+        showMenu();
+      } else if (event === 'SIGNED_OUT') {
+        user = null;
+        userProgress = {};
+        allQuestions = [];
+        showScreen('screen-login');
+      }
+    });
+
+    const { data: { session: authSession } } = await sb.auth.getSession();
+    if (authSession) {
       user = authSession.user;
       await loadData();
       showMenu();
-    } else if (event === 'SIGNED_OUT') {
-      user = null;
-      userProgress = {};
-      allQuestions = [];
+    } else {
       showScreen('screen-login');
     }
-  });
-
-  const { data: { session: authSession } } = await sb.auth.getSession();
-  if (authSession) {
-    user = authSession.user;
-    await loadData();
-    showMenu();
-  } else {
+  } catch (e) {
+    console.error('Init error:', e);
     showScreen('screen-login');
   }
 }
