@@ -91,6 +91,14 @@ function showScreen(id) {
   window.scrollTo(0, 0);
 }
 
+const MODULES = [
+  'RCA Comunes',
+  'ATFM',
+  'Control Vigilancia Ruta ACS',
+  'Meteo-Altimetría',
+  'Manual ACC Barcelona Ruta E',
+];
+
 function showMenu() {
   document.getElementById('user-email').textContent = user?.email || '';
 
@@ -100,6 +108,18 @@ function showMenu() {
 
   document.getElementById('menu-answered').textContent = `${answered} de ${total} respondidas`;
   document.getElementById('menu-failed').textContent = `${failed} pregunta${failed !== 1 ? 's' : ''} con fallos`;
+
+  const modulesEl = document.getElementById('menu-modules');
+  modulesEl.innerHTML = MODULES.map(topic => {
+    const count = allQuestions.filter(q => q.topic === topic).length;
+    return `<div class="menu-item" onclick="startTest('topic:${topic}')">
+      <div>
+        <div class="menu-item-title">${topic}</div>
+        <div class="menu-item-sub">${count} preguntas</div>
+      </div>
+      <span class="chevron">›</span>
+    </div>`;
+  }).join('');
 
   showScreen('screen-menu');
 }
@@ -160,6 +180,9 @@ function startTest(mode) {
       alert('¡No tienes preguntas falladas! Practica primero un test.');
       return;
     }
+  } else if (mode.startsWith('topic:')) {
+    const topic = mode.slice(6);
+    pool = allQuestions.filter(q => q.topic === topic).sort(() => Math.random() - 0.5);
   } else {
     pool = [...allQuestions].sort(() => Math.random() - 0.5);
   }

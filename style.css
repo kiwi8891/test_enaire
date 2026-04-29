@@ -61,6 +61,16 @@ input:focus { outline: none; border-color: #007aff; }
 .btn-primary { background: #007aff; color: white; }
 .btn-secondary { background: #e5e5ea; color: #1c1c1e; margin-top: 8px; }
 
+/* Menu section title */
+.menu-section-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #8e8e93;
+  margin: 0 4px 6px;
+}
+
 /* Menu items */
 .menu-item {
   display: flex;
